@@ -1,0 +1,146 @@
+Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s) and 26 content page(s); 520 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
+Supplementary pages in the workbook: 43
+
+clips left off the Video page (not on the old index; write a description_new to list one): 11
+    html/Organisms/PRotifera/rotifer1
+    media/5thlegdissection/5thlegdissection
+    media/Trichocerca_cylindrica1/Trichocerca_cylindrica1
+    media/VF/d_retrocurva_pecten/d_retrocurva_pecten_64X
+    media/VF/daphnia_pectin/Daphnia0160xDIC
+    ... and 6 more
+clips on the Video page without a new description: 90
+    media/aglaodiaptomus_leptopus/aglaodiaptomus_leptopus_mating_hq
+    media/asplanchna1/Asplanchna1
+    media/asplanchna2/asplanchna_feeding
+    media/bosmina2/bosmina2
+    media/bosmina1/bosmina1
+    ... and 85 more
+pictures using DRAFT alt text (needs review): 1109
+    acanthocyclops-robustus-09
+    acanthocyclops-robustus-10
+    acanthocyclops-robustus-11
+    acanthocyclops-robustus-12
+    acanthocyclops-robustus-13
+    ... and 1104 more
+videos with no new description (old text used): 139
+    media/cyclopoid1/cyclopoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/aglaodiaptomus_leptopus/aglaodiaptomus_leptopus_mating_hq
+    media/calanoid1/calanoid1
+    ... and 134 more
+detail figures using DRAFT alt text (needs review): 315
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_pa_600x600.jpg
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_Asetae_600x600.jpg
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_pc_600x600.jpg
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_ventroposterior_600x600.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/A_harpae_pc_600x600.jpg
+    ... and 310 more
+links in text that could not be resolved: 30
+    aglaodiaptomus-leptopus: page:html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/aglaodiaptomusleptopus_images.html
+    camptocercus-spp: page:html/Organisms/CCladocera/FChydoridae/GCamptocercus/Camptocercus_sp/C_flexing.htm
+    ceriodaphnia-dubia: page:html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_dubia/c_dubia_male.htm
+    ceriodaphnia-reticulata: page:html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_reticulata/c_reticulata_male.htm
+    ceriodaphnia-reticulata: page:html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_reticulata/c_reticulata_mating.htm
+    ... and 25 more
+missing image file: 5
+    microcyclops-rubellus: #1
+    key: html/choices/cladocera/42/frame41choice1.jpg
+    key: html/choices/cladocera/FChydoridae/65/Fchy_frame60choice1b.jpg
+    bosminalongirostris-figure1: #
+    copepoddissection: #
+pages whose title came from their own first heading (the old <title> was the generic site name): 8
+    alona.md -> Taxonomy
+    alonella-disparalona.md -> Taxonomy
+    ccopepodafemale.md -> Taxonomy
+    chydoridae-onebasal.md -> Taxonomy
+    chydoridae.md -> Taxonomy
+    ... and 3 more
+pages formatted as reference lists (add 'style: none' to turn this off): 1
+    references.md
+guide pictures using the standard description (write alt_text_new where a step needs its own): 58
+    cladocera/232/232: frame232guide.jpg
+    cladocera/233/233: frame233guide.jpg
+    cladocera/238/238: frame238guide.jpg
+    cladocera/239/239: frame239guide.jpg
+    cladocera/245/245: frame245guide.jpg
+    ... and 53 more
+pictures on key steps with no alt text (images of text): 4
+    cladocera/39b/39b: frame39bchoice2.gif
+    cladocera/FChydoridae/86/86: Fchy_frame86choice2.jpg
+    rotifera/94b/94b: trophy.jpg
+    rotifera/94b/94b: uncus.jpg
+key choices whose destination page was not found: 2
+    copepoda/105a/105a choice 2: unattached--acanthocyclopsvernalis
+    otherarthropods/51/51 choice 1: unattached--ostracoda
+picture-only key choices with only a placeholder label (fill choice_label_new): 7
+    copepoda/5/5 choice 1
+    copepoda/5/5 choice 3
+    entry/rotifers choice 1
+    entry/rotifers choice 2
+    entry/rotifers choice 3
+    ... and 2 more
+key choices with no visible text and no alt text (need a label): 2
+    copepoda/5/5 choice 2
+    otherarthropods/51/51 choice 1
+picture-only key choices labeled with the species name (check, then fill choice_label_new): 5
+    otherarthropods/51/51 choice 2: *Eubranchipus spp.*
+    otherarthropods/51/51 choice 3: *Hydracarina*
+    otherarthropods/51/51 choice 5: *Argulus spp.*
+    otherarthropods/51/51 choice 6: *Mysis spp.*
+    entry/rotifers choice 8: *Hexarthra mira*
+picture-only key choices labeled from the Groups outline (check, then fill choice_label_new): 5
+    otherarthropods/51/51 choice 4: Order Diptera
+    entry/rotifers choice 6: Genus Notholca
+    entry/rotifers choice 7: Genus Filinia
+    entry/rotifers choice 9: Genus Polyarthra
+    entry/rotifers choice 10: Genus Anuraeopsis
+group preview pictures with only a generic description (write alt_text_new): 4
+    Cladocera
+    Copepoda
+    Rotifera
+    Other Arthropods
+supplementary pages whose title came from the page itself (set 'title' in extra_pages if wrong): 6
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_catawba/DcatawbaNecktooth.html -> Dcatawbanecktooth
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_magna/Dmagna_dvm.html -> Dmagna Dvm
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_carapace_strength.html -> D Midden Carapace Strength
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_distributions.html -> D Midden Distributions
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_wide_carap.html -> D Midden Wide Carap
+    ... and 1 more
+supplementary pages with nothing to show (skipped): 18
+    html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/aglaodiaptomusspatulocrenatus_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/aglaodiaptomusspatulocrenatus_sequence.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_lacustris/epischuralacustris_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_lacustris/epischuralacustris_sequence.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_nordenskioldi/epischuranordenskioldi_numbers.html
+    ... and 13 more
+anatomy views using a standard description (write alt_text_new): 63
+    bosmina: Show all labeled parts
+    bosmina: Rostrum
+    bosmina: Sensory Bristle
+    bosmina: 1st antennae
+    bosmina: 2nd Antennae
+    ... and 58 more
+anatomy thumbnails taken from content/assets/anatomy/: 5
+    bosmina: bosminachoice.jpg
+    daphnia: daphniachoice.jpg
+    copepod: Copepodchoice.jpg
+    rotiferA: RotiferAChoice.jpg
+    rotiferB: RotiferBChoice.jpg
+Groups entries whose destination does not exist (check goes_to, or convert the page): 3
+    overview: Class Ostracoda
+    arthropoda: Class Ostracoda
+    genera: Class Ostracoda
+the Anatomy index page is now generated from the workbook (content/anatomy.md is no longer used): 1
+    anatomy.md
+
+Page checks: 9 problem(s)
+    ccopepodafemale/index.html: 1 image(s) with empty alt
+    ccopepodamolt/index.html: 1 image(s) with empty alt
+    chydoridae/index.html: 2 image(s) with empty alt
+    copepoddissection/index.html: 3 image(s) with empty alt
+    instructions/index.html: 2 image(s) with empty alt
+    macrothricidae/index.html: 7 image(s) with empty alt
+    naupliuscalanoid/index.html: 4 image(s) with empty alt
+    naupliuscyclopoid/index.html: 7 image(s) with empty alt
+    special-features/index.html: 4 image(s) with empty alt

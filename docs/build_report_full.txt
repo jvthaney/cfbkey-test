@@ -1,0 +1,1936 @@
+clips left off the Video page (not on the old index; write a description_new to list one): 11
+    html/Organisms/PRotifera/rotifer1
+    media/5thlegdissection/5thlegdissection
+    media/Trichocerca_cylindrica1/Trichocerca_cylindrica1
+    media/VF/d_retrocurva_pecten/d_retrocurva_pecten_64X
+    media/VF/daphnia_pectin/Daphnia0160xDIC
+    media/VF/e_longispina_pecten/e_longispina_pecten_64X
+    media/VF/e_phaleratus_hairy/Ectocyclops_phaleratus_2
+    media/VF/m_edax_ant/Mesocyclops_edax_2
+    media/antennaremoval/antennaremoval
+    media/chaoborus1/chaoborus2
+    media/ramiremoval/ramiremoval
+
+clips on the Video page without a new description: 90
+    media/aglaodiaptomus_leptopus/aglaodiaptomus_leptopus_mating_hq
+    media/asplanchna1/Asplanchna1
+    media/asplanchna2/asplanchna_feeding
+    media/bosmina2/bosmina2
+    media/bosmina1/bosmina1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/ceriodaphnia1/ceriodaphnia1
+    media/chaoborus2/ChaoborusFeeds_Drosea
+    media/chaoborus1/chaoborus1
+    media/chydorus2/chydorus2
+    media/chydorus1/chydorus1
+    media/conochilus/conochilus_hippocrepis
+    media/conochilus2/conochilus2
+    media/daphnialumholtzi2/Daphnialumholtzi2
+    media/daphniaparvula1/DparvulaPostAbdomRejectRotifer
+    media/daphniamagna1/daphniamagna1
+    media/daphnialumholtzi1/Daphnialumholtzi1
+    media/daphniamagna3/D_magna_mating
+    media/daphniamagna2/D_magna_molting
+    media/daphniamendotae/d_mendotae_cyano
+    media/daphnia2/daphnia_gut_xc
+    media/daphnia1/daphnia_heart
+    media/fairyshrimp1/fairyshrimp1
+    media/euclanis1/euclanis1
+    media/gastropus/gastropusfeeding
+    media/holopedium1/Holopedium1
+    media/holopedium2/holopedium_feeding
+    media/kellicottia1/kellicottia1
+    media/keratellataura1/keratellataura1
+    media/keratella1/keratella1
+    media/leptodora1/leptodora1
+    media/leptodora2/leptodora2
+    media/macrocyclops_albidus/M_albidus_mating
+    media/polyarthra1/polyarthra1
+    media/polyphemus2/polyphemus2
+    media/polyphemus1/polyphemus1
+    media/scapholeberis1/Schapholeberis1
+    media/sidacrystallina/sida_feeding
+    media/synchaeta1/synchaeta1
+    media/alosa_pseudoharengus/alewife_feeding
+    media/cyclopoid1/cyclopoid1
+    media/harpacticoid1/harpacticoid1
+    media/hydracarina1/hydracarina1
+    media/mosquito/mosquito_feeding
+    media/nepidae/nepidae_feeding
+    media/ostracods/ostracods
+    media/VF/b_longirostris/Bosminalongirostris_pectin
+    media/VF/b_longirostris/Blongirostris_sbristle
+    media/VF/calanoid_fifthleg_female/Calanoidfifthleg20x
+    media/VF/c_reticulatamandible/C.reticlatamandible
+    media/VF/c_dubia_pectin/Ceriodaphniadubia40x1.6x
+    media/VF/c_reticulata_pectin/C.reticulatapectin
+    media/VF/conochilus_stalkless/Conochilus_stalkless_32X
+    media/VF/conochilus_stalkless/Conochilus_stalkless_64X
+    media/VF/d_magna/D_magna_headshield
+    media/VF/d_dubia_pecten/d_dubia_pecten_64X
+    media/VF/d_rosea/Droseapectin
+    media/VF/d_parvula/D.parvula_pectin
+    media/VF/d_retrocurva_pecten/D_retrocurva_pecten
+    media/VF/e_phaleratus_ant/Ectocyclops_phaleratus
+    media/VF/e_phaleratus_hairy/Cyclopoid0120x1.6x
+    media/VF/e_longispina_mucro/Eu.hagmannimucro
+    media/VF/e_longispina_pecten/Eub.hagmannipostabclaw
+    media/VF/e_longispina_pecten/e_longispina_pecten2_64X
+    media/VF/e_longispina_hair/e_longispina_hair_64X
+    media/VF/e_longispina_hair/e_longispina_hair_32X
+    media/VF/e_longispina_mucro/e_longispina_mucro_32X
+    media/VF/k_earlinae_cup/k_earlinae_cup_64X
+    media/VF/keratella_cup/keratella
+    media/VF/m_edax_hyal_vert/m_edax_hyaline_vert_40X
+    media/VF/m_edax_hyal_vert/m_edax_hyaline_vert_64X
+    media/VF/m_edax_ant/Mesocyclops_edax
+    media/VF/m_edax_fifthleg/m_edax_female5thleg_40X
+    media/VF/m_edax_fifthleg/m_edax_female5thleg_64X
+    media/VF/m_edax_hairy/m_edax_hairy
+    media/VF/m_edax_hairy/m_edax_setae_64X
+    media/VF/S_pygmeus/S_pygmeus_5th_leg
+    media/methods/jerk_closing_net
+    media/methods/bongo
+    media/methods/Field_Sample_Processing
+    media/methods/Gravity_Bottle
+    media/methods/Grazing_Chamber
+    media/methods/Juday_trap
+    media/methods/Kemmerer_bottleLg
+    media/methods/messenger_closing_net
+    media/methods/Meyer_bottle
+    media/methods/Peristaltic_pump
+    media/methods/El_Tubo
+    media/methods/Van_Dorn_bottle
+
+pictures using DRAFT alt text (needs review): 1109
+    acanthocyclops-robustus-09
+    acanthocyclops-robustus-10
+    acanthocyclops-robustus-11
+    acanthocyclops-robustus-12
+    acanthocyclops-robustus-13
+    acanthocyclops-robustus-14
+    acanthocyclops-robustus-15
+    acanthocyclops-robustus-16
+    acanthocyclops-robustus-17
+    acanthocyclops-robustus-18
+    acantholeberis-curvirostris-01
+    acantholeberis-curvirostris-02
+    acantholeberis-curvirostris-03
+    acroperus-harpae-01
+    acroperus-harpae-02
+    acroperus-harpae-03
+    acroperus-harpae-04
+    acroperus-harpae-05
+    aglaodiaptomus-clavipes-01
+    aglaodiaptomus-clavipes-02
+    aglaodiaptomus-clavipes-03
+    aglaodiaptomus-clavipes-04
+    aglaodiaptomus-leptopus-01
+    aglaodiaptomus-leptopus-02
+    aglaodiaptomus-leptopus-03
+    aglaodiaptomus-leptopus-04
+    aglaodiaptomus-leptopus-05
+    aglaodiaptomus-spatulocrenatus-01
+    aglaodiaptomus-spatulocrenatus-02
+    aglaodiaptomus-spatulocrenatus-03
+    aglaodiaptomus-spatulocrenatus-04
+    aglaodiaptomus-spatulocrenatus-05
+    alona-bicolor-01
+    alona-bicolor-02
+    alona-bicolor-03
+    alona-bicolor-04
+    alona-bicolor-05
+    alona-rustica-01
+    alona-rustica-02
+    alona-rustica-03
+    alona-rustica-04
+    alona-setulosa-01
+    alona-setulosa-02
+    alona-setulosa-03
+    alona-setulosa-04
+    alona-setulosa-05
+    alonella-excisa-01
+    alonella-excisa-02
+    alonella-excisa-03
+    alonella-excisa-04
+    alonella-excisa-05
+    alonella-exigua-01
+    alonella-exigua-02
+    alonella-exigua-03
+    alonella-exigua-04
+    alonopsis-americana-01
+    alonopsis-americana-02
+    alonopsis-americana-03
+    anuraeopsis-fissa-01
+    anuraeopsis-fissa-02
+    anuraeopsis-fissa-03
+    anuraeopsis-fissa-04
+    anuraeopsis-navicula-01
+    anuraeopsis-navicula-02
+    arctodiaptomus-dorsalis-01
+    arctodiaptomus-dorsalis-02
+    arctodiaptomus-dorsalis-03
+    arctodiaptomus-floridanus-01
+    arctodiaptomus-floridanus-02
+    arctodiaptomus-floridanus-03
+    argulus-spp-01
+    argulus-spp-02
+    argulus-spp-03
+    ascomorpha-ecaudis-01
+    ascomorpha-ecaudis-02
+    ascomorpha-ecaudis-03
+    ascomorpha-ecaudis-04
+    ascomorpha-ecaudis-05
+    ascomorpha-saltans-01
+    ascomorpha-saltans-02
+    ascomorpha-saltans-03
+    ascomorpha-saltans-04
+    asplanchna-brightwelli-01
+    asplanchna-brightwelli-02
+    asplanchna-herricki-01
+    asplanchna-herricki-02
+    asplanchna-herricki-03
+    asplanchna-priodonta-01
+    asplanchna-priodonta-02
+    asplanchna-priodonta-03
+    asplanchna-priodonta-04
+    asplanchna-priodonta-05
+    bipalpus-hudsoni-01
+    bipalpus-hudsoni-02
+    bipalpus-hudsoni-03
+    bipalpus-hudsoni-04
+    bosmina-longirostris-01
+    bosmina-longirostris-02
+    bosmina-longirostris-03
+    bosmina-longirostris-04
+    bosmina-longirostris-05
+    bosmina-longirostris-06
+    bosminopsis-deitersi-01
+    bosminopsis-deitersi-02
+    bosminopsis-deitersi-03
+    bosminopsis-deitersi-04
+    bosminopsis-deitersi-05
+    bosminopsis-deitersi-06
+    bosminopsis-deitersi-07
+    brachionus-angularis-01
+    brachionus-angularis-02
+    brachionus-angularis-03
+    brachionus-angularis-04
+    brachionus-bidentata-01
+    brachionus-bidentata-02
+    brachionus-bidentata-03
+    brachionus-calyciflorus-01
+    brachionus-calyciflorus-02
+    brachionus-calyciflorus-03
+    brachionus-calyciflorus-04
+    brachionus-caudatus-01
+    brachionus-caudatus-02
+    brachionus-caudatus-03
+    brachionus-havanaensis-01
+    brachionus-havanaensis-02
+    brachionus-havanaensis-03
+    brachionus-quadridentatus-01
+    brachionus-quadridentatus-02
+    brachionus-quadridentatus-03
+    brachionus-rubens-01
+    brachionus-rubens-02
+    brachionus-rubens-03
+    brachionus-urceolaris-01
+    brachionus-urceolaris-02
+    brachionus-urceolaris-03
+    brachionus-variabilis-01
+    brachionus-variabilis-02
+    brachionus-variabilis-03
+    brachionus-variabilis-04
+    brachionus-variabilis-05
+    bythotrephes-cedarstroemii-01
+    bythotrephes-cedarstroemii-02
+    bythotrephes-cedarstroemii-03
+    camptocercus-spp-02
+    camptocercus-spp-03
+    camptocercus-spp-04
+    cercopagis-pengoi-01
+    cercopagis-pengoi-02
+    cercopagis-pengoi-03
+    cercopagis-pengoi-04
+    cercopagis-pengoi-05
+    cercopagis-pengoi-06
+    ceriodaphnia-dubia-05
+    ceriodaphnia-dubia-06
+    ceriodaphnia-dubia-07
+    ceriodaphnia-dubia-08
+    ceriodaphnia-dubia-09
+    ceriodaphnia-dubia-10
+    ceriodaphnia-lacustris-01
+    ceriodaphnia-lacustris-02
+    ceriodaphnia-lacustris-03
+    ceriodaphnia-lacustris-04
+    ceriodaphnia-laticaudata-01
+    ceriodaphnia-laticaudata-02
+    ceriodaphnia-laticaudata-03
+    ceriodaphnia-laticaudata-04
+    ceriodaphnia-laticaudata-05
+    ceriodaphnia-laticaudata-06
+    ceriodaphnia-laticaudata-07
+    ceriodaphnia-laticaudata-08
+    ceriodaphnia-laticaudata-09
+    ceriodaphnia-reticulata-04
+    ceriodaphnia-reticulata-05
+    ceriodaphnia-reticulata-06
+    ceriodaphnia-reticulata-07
+    ceriodaphnia-reticulata-08
+    ceriodaphnia-reticulata-09
+    ceriodaphnia-rigaudi-01
+    ceriodaphnia-rigaudi-02
+    ceriodaphnia-rigaudi-03
+    ceriodaphnia-rigaudi-04
+    ceriodaphnia-rigaudi-05
+    chaoborus-albipes-flavicans-01
+    chaoborus-albipes-flavicans-02
+    chaoborus-albipes-flavicans-03
+    chaoborus-albipes-flavicans-04
+    chaoborus-albipes-flavicans-05
+    chaoborus-americanus-01
+    chaoborus-americanus-02
+    chaoborus-americanus-03
+    chaoborus-americanus-04
+    chaoborus-americanus-05
+    chaoborus-punctipennis-01
+    chaoborus-punctipennis-02
+    chaoborus-punctipennis-03
+    chaoborus-punctipennis-04
+    chaoborus-punctipennis-05
+    chaoborus-punctipennis-06
+    chaoborus-trivittatus-01
+    chaoborus-trivittatus-02
+    chaoborus-trivittatus-03
+    chydorus-bicornutus-01
+    chydorus-bicornutus-02
+    chydorus-bicornutus-03
+    chydorus-bicornutus-04
+    chydorus-sphaericus-01
+    chydorus-sphaericus-02
+    chydorus-sphaericus-03
+    chydorus-sphaericus-04
+    chydorus-sphaericus-05
+    chydorus-sphaericus-06
+    collotheca-mutabilis-01
+    collotheca-mutabilis-02
+    collotheca-mutabilis-03
+    collotheca-pelagica-01
+    collotheca-pelagica-02
+    collotheca-pelagica-03
+    conochiloides-coenobasis-01
+    conochiloides-coenobasis-02
+    conochiloides-coenobasis-03
+    conochiloides-dossuarius-01
+    conochiloides-dossuarius-02
+    conochiloides-dossuarius-03
+    conochiloides-dossuarius-04
+    conochiloides-dossuarius-05
+    conochiloides-dossuarius-06
+    conochiloides-natans-01
+    conochiloides-natans-02
+    conochiloides-natans-03
+    conochilus-hippocrepis-01
+    conochilus-hippocrepis-02
+    conochilus-hippocrepis-03
+    conochilus-hippocrepis-04
+    conochilus-hippocrepis-05
+    conochilus-hippocrepis-06
+    conochilus-unicornis-01
+    conochilus-unicornis-02
+    conochilus-unicornis-03
+    conochilus-unicornis-04
+    conochilus-unicornis-05
+    cyclops-scutifer-01
+    cyclops-scutifer-02
+    cyclops-scutifer-03
+    cyclops-scutifer-04
+    cyclops-scutifer-05
+    cyclops-scutifer-06
+    cyclops-scutifer-07
+    cyclops-scutifer-08
+    cyclops-scutifer-09
+    daphnia-ambigua-01
+    daphnia-ambigua-02
+    daphnia-ambigua-03
+    daphnia-ambigua-04
+    daphnia-ambigua-05
+    daphnia-ambigua-06
+    daphnia-ambigua-07
+    daphnia-ambigua-08
+    daphnia-ambigua-09
+    daphnia-catawba-02
+    daphnia-catawba-03
+    daphnia-catawba-04
+    daphnia-catawba-05
+    daphnia-catawba-06
+    daphnia-catawba-07
+    daphnia-catawba-08
+    daphnia-dubia-01
+    daphnia-dubia-02
+    daphnia-dubia-03
+    daphnia-dubia-04
+    daphnia-dubia-05
+    daphnia-dubia-06
+    daphnia-dubia-07
+    daphnia-dubia-08
+    daphnia-dubia-09
+    daphnia-dubia-10
+    daphnia-laevis-01
+    daphnia-laevis-02
+    daphnia-laevis-03
+    daphnia-laevis-04
+    daphnia-laevis-05
+    daphnia-laevis-06
+    daphnia-laevis-07
+    daphnia-laevis-08
+    daphnia-longiremus-01
+    daphnia-longiremus-02
+    daphnia-longiremus-03
+    daphnia-longiremus-04
+    daphnia-longiremus-05
+    daphnia-longiremus-06
+    daphnia-longiremus-07
+    daphnia-longiremus-08
+    daphnia-lumholtzi-01
+    daphnia-lumholtzi-02
+    daphnia-lumholtzi-03
+    daphnia-lumholtzi-04
+    daphnia-lumholtzi-05
+    daphnia-lumholtzi-06
+    daphnia-magna-02
+    daphnia-magna-03
+    daphnia-magna-04
+    daphnia-magna-05
+    daphnia-magna-06
+    daphnia-magna-07
+    daphnia-magna-08
+    daphnia-magna-09
+    daphnia-magna-10
+    daphnia-mendotae-01
+    daphnia-mendotae-02
+    daphnia-mendotae-03
+    daphnia-mendotae-04
+    daphnia-mendotae-05
+    daphnia-mendotae-06
+    daphnia-mendotae-07
+    daphnia-mendotae-08
+    daphnia-mendotae-09
+    daphnia-mendotae-10
+    daphnia-middendorffiana-04
+    daphnia-middendorffiana-05
+    daphnia-middendorffiana-06
+    daphnia-middendorffiana-07
+    daphnia-middendorffiana-08
+    daphnia-middendorffiana-09
+    daphnia-parvula-01
+    daphnia-parvula-02
+    daphnia-parvula-03
+    daphnia-parvula-04
+    daphnia-parvula-05
+    daphnia-parvula-06
+    daphnia-parvula-07
+    daphnia-parvula-08
+    daphnia-pulex-02
+    daphnia-pulex-03
+    daphnia-pulex-04
+    daphnia-pulex-05
+    daphnia-pulex-06
+    daphnia-pulex-07
+    daphnia-pulex-08
+    daphnia-pulex-09
+    daphnia-pulex-10
+    daphnia-pulex-11
+    daphnia-pulex-12
+    daphnia-pulex-13
+    daphnia-pulicaria-01
+    daphnia-pulicaria-02
+    daphnia-pulicaria-03
+    daphnia-pulicaria-04
+    daphnia-retrocurva-01
+    daphnia-retrocurva-02
+    daphnia-retrocurva-03
+    daphnia-retrocurva-04
+    daphnia-retrocurva-05
+    daphnia-retrocurva-06
+    daphnia-rosea-01
+    daphnia-rosea-02
+    daphnia-rosea-03
+    daphnia-rosea-04
+    daphnia-rosea-05
+    daphnia-schdleri-01
+    daphnia-schdleri-02
+    daphnia-schdleri-03
+    daphnia-schdleri-04
+    diacyclops-bicuspidatus-odessanus-01
+    diacyclops-bicuspidatus-odessanus-02
+    diacyclops-bicuspidatus-odessanus-03
+    diacyclops-bicuspidatus-odessanus-04
+    diacyclops-bicuspidatus-odessanus-05
+    diacyclops-thomasi-03
+    diacyclops-thomasi-04
+    diacyclops-thomasi-05
+    diacyclops-thomasi-06
+    diacyclops-thomasi-07
+    diaphanosoma-birgei-01
+    diaphanosoma-birgei-02
+    diaphanosoma-birgei-03
+    diaphanosoma-birgei-04
+    diaphanosoma-birgei-05
+    diaphanosoma-birgei-06
+    diaphanosoma-birgei-07
+    diaphanosoma-brachyurum-01
+    diaphanosoma-brachyurum-02
+    diaphanosoma-brachyurum-03
+    diaphanosoma-brachyurum-04
+    diaphanosoma-brachyurum-05
+    diaphanosoma-brachyurum-06
+    disparalona-hamata-01
+    disparalona-hamata-02
+    disparalona-hamata-03
+    disparalona-hamata-04
+    disparalona-hamata-05
+    disparalona-hamata-06
+    disparalona-hamata-07
+    disparalona-hamata-08
+    ectocyclops-phaleratus-01
+    ectocyclops-phaleratus-02
+    ectocyclops-phaleratus-03
+    epischura-lacustris-01
+    epischura-lacustris-02
+    epischura-lacustris-03
+    epischura-lacustris-04
+    epischura-lacustris-05
+    epischura-nordenskildi-01
+    epischura-nordenskildi-02
+    epischura-nordenskildi-03
+    ergasilus-spp-01
+    ergasilus-spp-02
+    ergasilus-spp-03
+    ergasilus-spp-04
+    ergasilus-spp-05
+    ergasilus-spp-06
+    eubosmina-coregoni-01
+    eubosmina-coregoni-02
+    eubosmina-coregoni-03
+    eubosmina-coregoni-04
+    eubosmina-coregoni-05
+    eubosmina-coregoni-06
+    eubosmina-hagmanni-01
+    eubosmina-hagmanni-02
+    eubosmina-hagmanni-03
+    eubosmina-hagmanni-04
+    eubosmina-hagmanni-05
+    eubosmina-longispina-01
+    eubosmina-longispina-02
+    eubosmina-longispina-03
+    eubosmina-longispina-04
+    eubosmina-longispina-05
+    eubosmina-longispina-06
+    eubosmina-tubicen-01
+    eubosmina-tubicen-02
+    eubosmina-tubicen-03
+    eubosmina-tubicen-04
+    eubosmina-tubicen-05
+    eubosmina-tubicen-06
+    eubosmina-tubicen-07
+    eubosmina-tubicen-08
+    eubosmina-tubicen-09
+    eubranchipus-spp-01
+    eubranchipus-spp-02
+    eubranchipus-spp-03
+    eubranchipus-spp-04
+    eubranchipus-spp-05
+    euchlanis-alata-01
+    euchlanis-alata-02
+    euchlanis-calpidia-01
+    euchlanis-calpidia-02
+    euchlanis-calpidia-03
+    euchlanis-dilatata-01
+    euchlanis-dilatata-02
+    euchlanis-dilatata-03
+    euchlanis-meneta-01
+    euchlanis-meneta-02
+    euchlanis-meneta-03
+    euchlanis-parva-01
+    euchlanis-parva-02
+    euchlanis-pellucida-01
+    euchlanis-pellucida-02
+    euchlanis-triquetra-01
+    euchlanis-triquetra-02
+    euchlanis-triquetra-03
+    eucyclops-agilis-01
+    eucyclops-agilis-02
+    eucyclops-agilis-03
+    eucyclops-agilis-04
+    eucyclops-agilis-05
+    eucyclops-agilis-06
+    eucyclops-agilis-07
+    eucyclops-elegans-01
+    eucyclops-elegans-02
+    eucyclops-elegans-03
+    eucyclops-elegans-04
+    eucyclops-elegans-05
+    eucyclops-elegans-06
+    eucyclops-prionophorus-01
+    eucyclops-prionophorus-02
+    eucyclops-prionophorus-03
+    eurycercus-spp-01
+    eurycercus-spp-02
+    eurycercus-spp-03
+    eurycercus-spp-04
+    eurycercus-spp-05
+    eurytemora-affinis-01
+    eurytemora-affinis-02
+    eurytemora-affinis-03
+    eurytemora-affinis-04
+    filinia-longiseta-01
+    filinia-longiseta-02
+    filinia-longiseta-03
+    filinia-terminalis-01
+    filinia-terminalis-02
+    filinia-terminalis-03
+    gastropus-hyptopus-01
+    gastropus-hyptopus-02
+    gastropus-hyptopus-03
+    gastropus-hyptopus-04
+    gastropus-hyptopus-05
+    gastropus-stylifer-01
+    gastropus-stylifer-02
+    gastropus-stylifer-03
+    graptoleberis-testudinaria-01
+    graptoleberis-testudinaria-02
+    graptoleberis-testudinaria-03
+    graptoleberis-testudinaria-04
+    graptoleberis-testudinaria-05
+    graptoleberis-testudinaria-06
+    harpacticoida-01
+    harpacticoida-02
+    harpacticoida-03
+    harpacticoida-04
+    harpacticoida-05
+    harpacticoida-06
+    hesperodiaptomus-franciscanus-01
+    hesperodiaptomus-franciscanus-02
+    hesperodiaptomus-franciscanus-03
+    hesperodiaptomus-franciscanus-04
+    hesperodiaptomus-franciscanus-05
+    hesperodiaptomus-shoshone-01
+    hesperodiaptomus-shoshone-02
+    hesperodiaptomus-shoshone-03
+    hesperodiaptomus-shoshone-04
+    hesperodiaptomus-shoshone-05
+    hesperodiaptomus-shoshone-06
+    hesperodiaptomus-shoshone-07
+    hesperodiaptomus-shoshone-08
+    hesperodiaptomus-shoshone-09
+    hesperodiaptomus-shoshone-10
+    hesperodiaptomus-shoshone-11
+    hesperodiaptomus-shoshone-12
+    heterocope-septentrionalis-01
+    heterocope-septentrionalis-02
+    heterocope-septentrionalis-03
+    heterocope-septentrionalis-04
+    hexarthra-mira-01
+    hexarthra-mira-02
+    hexarthra-mira-03
+    hexarthra-mira-04
+    hexarthra-mira-05
+    hexarthra-mira-06
+    holopedium-gibberum-01
+    holopedium-gibberum-02
+    holopedium-gibberum-03
+    holopedium-gibberum-04
+    holopedium-gibberum-05
+    holopedium-gibberum-06
+    homocyclops-ater-01
+    homocyclops-ater-02
+    homocyclops-ater-03
+    homocyclops-ater-04
+    homocyclops-ater-05
+    homocyclops-ater-06
+    hydracarina-01
+    hydracarina-02
+    hydracarina-03
+    hydracarina-04
+    hydracarina-05
+    hydracarina-06
+    hydracarina-07
+    hydracarina-08
+    hydracarina-09
+    ilyocryptus-spp-01
+    ilyocryptus-spp-02
+    ilyocryptus-spp-03
+    ilyocryptus-spp-04
+    kellicottia-bostoniensis-01
+    kellicottia-bostoniensis-02
+    kellicottia-bostoniensis-03
+    kellicottia-longispina-01
+    kellicottia-longispina-02
+    kellicottia-longispina-03
+    keratella-cochlearis-01
+    keratella-cochlearis-02
+    keratella-cochlearis-03
+    keratella-cochlearis-04
+    keratella-cochlearis-05
+    keratella-cochlearis-06
+    keratella-crassa-01
+    keratella-crassa-02
+    keratella-crassa-03
+    keratella-crassa-04
+    keratella-earlinae-01
+    keratella-earlinae-02
+    keratella-earlinae-03
+    keratella-earlinae-04
+    keratella-hiemalis-01
+    keratella-hiemalis-02
+    keratella-hiemalis-03
+    keratella-hiemalis-04
+    keratella-quadrata-01
+    keratella-quadrata-02
+    keratella-quadrata-03
+    keratella-quadrata-04
+    keratella-serrulata-01
+    keratella-serrulata-02
+    keratella-serrulata-03
+    keratella-serrulata-04
+    keratella-taurocephala-01
+    keratella-taurocephala-02
+    keratella-taurocephala-03
+    keratella-taurocephala-04
+    keratella-tecta-01
+    keratella-tecta-02
+    keratella-tecta-03
+    keratella-testudo-01
+    keratella-testudo-02
+    keratella-testudo-03
+    keratella-testudo-04
+    keratella-testudo-05
+    keratella-valga-01
+    keratella-valga-02
+    keratella-valga-03
+    kurzia-latissima-01
+    kurzia-latissima-02
+    kurzia-latissima-03
+    kurzia-latissima-04
+    kurzia-latissima-05
+    lathonura-rectirostris-01
+    lathonura-rectirostris-02
+    lathonura-rectirostris-03
+    lathonura-rectirostris-04
+    lathonura-rectirostris-05
+    latona-glacialis-01
+    latona-glacialis-02
+    latona-glacialis-03
+    latona-glacialis-04
+    latona-glacialis-05
+    latona-glacialis-06
+    latona-glacialis-07
+    latona-parviremis-01
+    latona-parviremis-02
+    latona-parviremis-03
+    latona-parviremis-04
+    latona-parviremis-05
+    latona-parviremis-06
+    latona-parviremis-07
+    latona-setifera-01
+    latona-setifera-02
+    latona-setifera-03
+    latona-setifera-04
+    lecane-crepida-01
+    lecane-crepida-02
+    lecane-inermis-01
+    lecane-inermis-02
+    lecane-inermis-03
+    lecane-inermis-04
+    lecane-inermis-05
+    lecane-leontina-01
+    lecane-leontina-02
+    lecane-ludwigi-01
+    lecane-ludwigi-02
+    lecane-luna-01
+    lecane-luna-02
+    lecane-luna-03
+    lecane-luna-04
+    lecane-mira-01
+    lecane-mira-02
+    lecane-mira-03
+    lecane-mira-04
+    lecane-ohioensis-01
+    lecane-ohioensis-02
+    lecane-stokesi-01
+    lecane-stokesi-02
+    lecane-tenuiseta-01
+    lecane-tenuiseta-02
+    lecane-tenuiseta-03
+    lecane-tudicola-01
+    lecane-tudicola-02
+    lecane-ungulata-01
+    lecane-ungulata-02
+    lecane-ungulata-03
+    lepadella-acuminata-01
+    lepadella-acuminata-02
+    lepadella-acuminata-03
+    lepadella-ehrenbergi-01
+    lepadella-ehrenbergi-02
+    lepadella-ovalis-01
+    lepadella-ovalis-02
+    lepadella-patella-01
+    lepadella-patella-02
+    lepadella-rhomboides-01
+    lepadella-rhomboides-02
+    lepadella-triptera-01
+    lepadella-triptera-02
+    lepadella-triptera-03
+    leptodiaptomus-ashlandi-01
+    leptodiaptomus-ashlandi-02
+    leptodiaptomus-ashlandi-03
+    leptodiaptomus-ashlandi-04
+    leptodiaptomus-ashlandi-05
+    leptodiaptomus-coloradensis-01
+    leptodiaptomus-coloradensis-02
+    leptodiaptomus-coloradensis-03
+    leptodiaptomus-coloradensis-04
+    leptodiaptomus-coloradensis-05
+    leptodiaptomus-coloradensis-06
+    leptodiaptomus-coloradensis-07
+    leptodiaptomus-coloradensis-08
+    leptodiaptomus-minutus-01
+    leptodiaptomus-minutus-02
+    leptodiaptomus-minutus-03
+    leptodiaptomus-minutus-04
+    leptodiaptomus-minutus-05
+    leptodiaptomus-minutus-06
+    leptodiaptomus-novamexicanus-01
+    leptodiaptomus-novamexicanus-02
+    leptodiaptomus-novamexicanus-03
+    leptodiaptomus-novamexicanus-04
+    leptodiaptomus-novamexicanus-05
+    leptodiaptomus-novamexicanus-06
+    leptodiaptomus-novamexicanus-07
+    leptodiaptomus-novamexicanus-08
+    leptodiaptomus-novamexicanus-09
+    leptodiaptomus-nudus-01
+    leptodiaptomus-nudus-02
+    leptodiaptomus-nudus-03
+    leptodiaptomus-nudus-04
+    leptodiaptomus-nudus-05
+    leptodiaptomus-sicilis-01
+    leptodiaptomus-sicilis-02
+    leptodiaptomus-sicilis-03
+    leptodiaptomus-siciloides-01
+    leptodiaptomus-siciloides-02
+    leptodiaptomus-siciloides-03
+    leptodiaptomus-siciloides-04
+    leptodiaptomus-siciloides-05
+    leptodiaptomus-signicauda-01
+    leptodiaptomus-signicauda-02
+    leptodiaptomus-signicauda-03
+    leptodiaptomus-tyrrelli-01
+    leptodiaptomus-tyrrelli-02
+    leptodiaptomus-tyrrelli-03
+    leptodiaptomus-tyrrelli-04
+    leptodora-kindti-01
+    leptodora-kindti-02
+    leptodora-kindti-03
+    leptodora-kindti-04
+    leptodora-kindti-05
+    leptodora-kindti-06
+    leydigia-spp-01
+    leydigia-spp-02
+    leydigia-spp-03
+    leydigia-spp-04
+    leydigia-spp-05
+    limnocalanus-macrurus-01
+    limnocalanus-macrurus-02
+    limnocalanus-macrurus-03
+    limnocalanus-macrurus-04
+    macrocyclops-albidus-03
+    macrocyclops-albidus-04
+    macrocyclops-albidus-05
+    macrocyclops-albidus-06
+    macrocyclops-albidus-07
+    macrocyclops-fuscus-01
+    macrocyclops-fuscus-02
+    macrocyclops-fuscus-03
+    macrocyclops-fuscus-04
+    macrocyclops-fuscus-05
+    macrocyclops-fuscus-06
+    macrocyclops-fuscus-07
+    macrocyclops-fuscus-08
+    macrocyclops-fuscus-09
+    macrocyclops-fuscus-10
+    macrocyclops-fuscus-11
+    macrothrix-spp-01
+    macrothrix-spp-02
+    macrothrix-spp-03
+    macrothrix-spp-04
+    macrothrix-spp-05
+    mesocyclops-edax-01
+    mesocyclops-edax-02
+    mesocyclops-edax-03
+    mesocyclops-edax-04
+    mesocyclops-edax-05
+    mesocyclops-edax-06
+    mesocyclops-edax-07
+    mesocyclops-edax-08
+    mesocyclops-edax-09
+    mesocyclops-edax-10
+    mesocyclops-edax-11
+    mesocyclops-edax-12
+    microcyclops-rubellus-01
+    microcyclops-rubellus-02
+    microcyclops-rubellus-03
+    microcyclops-rubellus-04
+    microcyclops-rubellus-05
+    microcyclops-rubellus-06
+    microcyclops-varicans-01
+    microcyclops-varicans-02
+    microcyclops-varicans-03
+    mochlonyx-spp-01
+    mochlonyx-spp-02
+    mochlonyx-spp-03
+    moina-macrocopa-01
+    moina-macrocopa-02
+    moina-macrocopa-03
+    moina-macrocopa-04
+    moina-macrocopa-05
+    moina-macrocopa-06
+    moina-macrocopa-07
+    moina-macrocopa-08
+    moina-micrura-01
+    moina-micrura-02
+    moina-micrura-03
+    moina-micrura-04
+    moina-micrura-05
+    moina-micrura-06
+    moina-micrura-07
+    monospilus-dispar-01
+    monospilus-dispar-02
+    monospilus-dispar-03
+    monostyla-bulla-01
+    monostyla-bulla-02
+    monostyla-bulla-03
+    monostyla-closterocerca-01
+    monostyla-closterocerca-02
+    monostyla-closterocerca-03
+    monostyla-copeis-01
+    monostyla-copeis-02
+    monostyla-copeis-03
+    monostyla-copeis-04
+    monostyla-cornuta-01
+    monostyla-lunaris-01
+    monostyla-lunaris-02
+    monostyla-quadridentata-01
+    monostyla-quadridentata-02
+    monostyla-stenroosi-01
+    monostyla-stenroosi-02
+    mysis-spp-01
+    mysis-spp-02
+    mysis-spp-03
+    mysis-spp-04
+    notholca-acuminata-01
+    notholca-acuminata-02
+    notholca-caudata-01
+    notholca-caudata-02
+    notholca-foliacea-01
+    notholca-foliacea-02
+    notholca-labis-01
+    notholca-labis-02
+    notholca-laurentiae-01
+    notholca-laurentiae-02
+    notholca-laurentiae-03
+    notholca-laurentiae-04
+    notholca-laurentiae-05
+    notholca-michiganensis-01
+    notholca-michiganensis-02
+    notholca-michiganensis-03
+    notholca-michiganensis-04
+    notholca-squamula-01
+    notholca-squamula-02
+    notholca-squamula-03
+    notholca-squamula-04
+    notholca-squamula-05
+    onychodiaptomus-birgei-01
+    onychodiaptomus-birgei-02
+    onychodiaptomus-birgei-03
+    onychodiaptomus-birgei-04
+    onychodiaptomus-sanguineus-01
+    onychodiaptomus-sanguineus-02
+    onychodiaptomus-sanguineus-03
+    ophryoxus-gracilis-01
+    ophryoxus-gracilis-02
+    ophryoxus-gracilis-03
+    ophryoxus-gracilis-04
+    orthocyclops-modestus-01
+    orthocyclops-modestus-02
+    orthocyclops-modestus-03
+    orthocyclops-modestus-04
+    orthocyclops-modestus-05
+    orthocyclops-modestus-06
+    orthocyclops-modestus-07
+    orthocyclops-modestus-08
+    osphranticum-labronectum-01
+    osphranticum-labronectum-02
+    osphranticum-labronectum-03
+    oxyurella-brevicaudis-01
+    oxyurella-brevicaudis-02
+    oxyurella-brevicaudis-03
+    oxyurella-brevicaudis-04
+    oxyurella-brevicaudis-05
+    parophryoxus-tubulatus-01
+    parophryoxus-tubulatus-02
+    parophryoxus-tubulatus-03
+    parophryoxus-tubulatus-04
+    platyias-patulus-01
+    platyias-patulus-02
+    platyias-patulus-03
+    platyias-patulus-04
+    platyias-patulus-05
+    platyias-patulus-06
+    platyias-quadricornis-01
+    platyias-quadricornis-02
+    platyias-quadricornis-03
+    pleuroxus-denticulatus-01
+    pleuroxus-denticulatus-02
+    pleuroxus-denticulatus-03
+    pleuroxus-denticulatus-04
+    pleuroxus-denticulatus-05
+    pleuroxus-procurvus-01
+    pleuroxus-procurvus-02
+    pleuroxus-procurvus-03
+    pleuroxus-procurvus-04
+    pleuroxus-straminius-01
+    pleuroxus-straminius-02
+    pleuroxus-straminius-03
+    pleuroxus-straminius-04
+    pleuroxus-straminius-05
+    pleuroxus-straminius-06
+    pleuroxus-straminius-07
+    pleuroxus-striatus-01
+    pleuroxus-striatus-02
+    pleuroxus-striatus-03
+    pleuroxus-striatus-04
+    pleuroxus-striatus-05
+    pleuroxus-trigonellus-01
+    pleuroxus-trigonellus-02
+    pleuroxus-trigonellus-03
+    ploesoma-lenticulare-01
+    ploesoma-lenticulare-02
+    ploesoma-lenticulare-03
+    ploesoma-truncatum-01
+    ploesoma-truncatum-02
+    ploesoma-truncatum-03
+    ploesoma-truncatum-04
+    polyarthra-dolichoptera-01
+    polyarthra-dolichoptera-02
+    polyarthra-dolichoptera-03
+    polyarthra-dolichoptera-04
+    polyarthra-euryptera-01
+    polyarthra-euryptera-02
+    polyarthra-euryptera-03
+    polyarthra-euryptera-04
+    polyarthra-euryptera-05
+    polyarthra-euryptera-06
+    polyarthra-major-01
+    polyarthra-major-02
+    polyarthra-major-03
+    polyarthra-major-04
+    polyarthra-remata-01
+    polyarthra-remata-02
+    polyarthra-remata-03
+    polyarthra-remata-04
+    polyarthra-vulgaris-01
+    polyarthra-vulgaris-02
+    polyarthra-vulgaris-03
+    polyarthra-vulgaris-04
+    polyarthra-vulgaris-05
+    polyphemus-pediculus-01
+    polyphemus-pediculus-02
+    polyphemus-pediculus-03
+    polyphemus-pediculus-04
+    polyphemus-pediculus-05
+    polyphemus-pediculus-06
+    pompholyx-sulcata-01
+    pompholyx-sulcata-02
+    pompholyx-sulcata-03
+    rhynochotalona-falcata-01
+    rhynochotalona-falcata-02
+    rhynochotalona-falcata-03
+    rhynochotalona-falcata-04
+    rhynochotalona-falcata-05
+    scapholeberis-mucronata-01
+    scapholeberis-mucronata-02
+    scapholeberis-mucronata-03
+    scapholeberis-mucronata-04
+    scapholeberis-mucronata-05
+    sida-crystallina-01
+    sida-crystallina-02
+    sida-crystallina-03
+    sida-crystallina-04
+    sida-crystallina-05
+    sida-crystallina-06
+    sida-crystallina-07
+    simocephalus-exspinosus-01
+    simocephalus-exspinosus-02
+    simocephalus-exspinosus-03
+    simocephalus-exspinosus-04
+    simocephalus-exspinosus-05
+    simocephalus-serrulatus-01
+    simocephalus-serrulatus-02
+    simocephalus-serrulatus-03
+    simocephalus-serrulatus-04
+    simocephalus-serrulatus-05
+    simocephalus-vetulus-01
+    simocephalus-vetulus-02
+    simocephalus-vetulus-03
+    simocephalus-vetulus-04
+    simocephalus-vetulus-05
+    skistodiaptomus-mississippiensis-01
+    skistodiaptomus-mississippiensis-02
+    skistodiaptomus-mississippiensis-03
+    skistodiaptomus-mississippiensis-04
+    skistodiaptomus-mississippiensis-05
+    skistodiaptomus-oregonensis-01
+    skistodiaptomus-oregonensis-02
+    skistodiaptomus-oregonensis-03
+    skistodiaptomus-oregonensis-04
+    skistodiaptomus-oregonensis-05
+    skistodiaptomus-oregonensis-06
+    skistodiaptomus-oregonensis-07
+    skistodiaptomus-pallidus-01
+    skistodiaptomus-pallidus-02
+    skistodiaptomus-pallidus-03
+    skistodiaptomus-pallidus-04
+    skistodiaptomus-pallidus-05
+    skistodiaptomus-pallidus-06
+    skistodiaptomus-pallidus-07
+    skistodiaptomus-pygmaeus-01
+    skistodiaptomus-pygmaeus-02
+    skistodiaptomus-pygmaeus-03
+    skistodiaptomus-pygmaeus-04
+    skistodiaptomus-pygmaeus-05
+    skistodiaptomus-pygmaeus-06
+    skistodiaptomus-reighardi-01
+    skistodiaptomus-reighardi-02
+    skistodiaptomus-reighardi-03
+    skistodiaptomus-reighardi-04
+    skistodiaptomus-reighardi-05
+    stephanoceros-fimbriatus-01
+    stephanoceros-fimbriatus-02
+    stephanoceros-fimbriatus-03
+    streblocerus-serricaudatus-01
+    streblocerus-serricaudatus-02
+    streblocerus-serricaudatus-03
+    streblocerus-serricaudatus-04
+    synchaeta-asymmetrica-01
+    synchaeta-asymmetrica-02
+    synchaeta-asymmetrica-03
+    synchaeta-grandis-01
+    synchaeta-grandis-02
+    synchaeta-grandis-03
+    synchaeta-grandis-04
+    synchaeta-kitina-01
+    synchaeta-kitina-02
+    synchaeta-kitina-03
+    synchaeta-kitina-04
+    synchaeta-lakowitziana-01
+    synchaeta-lakowitziana-02
+    synchaeta-lakowitziana-03
+    synchaeta-lakowitziana-04
+    synchaeta-lakowitziana-05
+    synchaeta-lakowitziana-06
+    synchaeta-lakowitziana-07
+    synchaeta-lakowitziana-08
+    synchaeta-oblonga-01
+    synchaeta-oblonga-02
+    synchaeta-oblonga-03
+    synchaeta-oblonga-04
+    synchaeta-oblonga-05
+    synchaeta-oblonga-06
+    synchaeta-pectinata-01
+    synchaeta-pectinata-02
+    synchaeta-pectinata-03
+    synchaeta-pectinata-04
+    synchaeta-pectinata-05
+    synchaeta-stylata-01
+    synchaeta-stylata-02
+    synchaeta-stylata-03
+    synchaeta-stylata-04
+    synchaeta-stylata-05
+    synchaeta-tremula-01
+    synchaeta-tremula-02
+    synchaeta-tremula-03
+    synchaeta-tremula-04
+    trichocerca-cylindrica-01
+    trichocerca-cylindrica-02
+    trichocerca-cylindrica-03
+    trichocerca-lata-01
+    trichocerca-lata-02
+    trichocerca-lata-03
+    trichocerca-longiseta-01
+    trichocerca-longiseta-02
+    trichocerca-mucosa-01
+    trichocerca-multicrinis-01
+    trichocerca-multicrinis-02
+    trichocerca-multicrinis-03
+    trichocerca-multicrinis-04
+    trichocerca-multicrinis-05
+    trichocerca-porcellus-01
+    trichocerca-porcellus-02
+    trichocerca-porcellus-03
+    trichocerca-porcellus-04
+    trichocerca-pusilla-01
+    trichocerca-pusilla-02
+    trichocerca-pusilla-03
+    trichocerca-rattus-01
+    trichocerca-rattus-02
+    trichocerca-rousseleti-01
+    trichocerca-rousseleti-02
+    trichocerca-rousseleti-03
+    trichocerca-similis-01
+    trichocerca-similis-02
+    trichocerca-similis-03
+    trichocerca-similis-04
+    trichocerca-similis-05
+    trichotria-pocillum-01
+    trichotria-pocillum-02
+    trichotria-pocillum-03
+    trichotria-tetractis-01
+    trichotria-tetractis-02
+    trichotria-tetractis-03
+    trichotria-tetractis-04
+    tropocyclops-prasinus-mexicanus-01
+    tropocyclops-prasinus-mexicanus-02
+    tropocyclops-prasinus-mexicanus-03
+    tropocyclops-prasinus-mexicanus-04
+    tropocyclops-prasinus-mexicanus-05
+    tropocyclops-prasinus-mexicanus-06
+    tylotrocha-monopus-01
+    tylotrocha-monopus-02
+    tylotrocha-monopus-03
+    tylotrocha-monopus-04
+
+videos with no new description (old text used): 139
+    media/cyclopoid1/cyclopoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/aglaodiaptomus_leptopus/aglaodiaptomus_leptopus_mating_hq
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/asplanchna1/Asplanchna1
+    media/asplanchna1/Asplanchna1
+    media/asplanchna1/Asplanchna1
+    media/bosmina1/bosmina1
+    media/bosmina2/bosmina2
+    media/ceriodaphnia1/ceriodaphnia1
+    media/chaoborus2/ChaoborusFeeds_Drosea
+    media/chaoborus1/chaoborus1
+    media/chydorus1/chydorus1
+    media/chydorus2/chydorus2
+    media/conochilus/conochilus_hippocrepis
+    media/conochilus2/conochilus2
+    media/conochilus2/conochilus2
+    media/cyclopoid1/cyclopoid1
+    media/daphnialumholtzi1/Daphnialumholtzi1
+    media/daphnialumholtzi2/Daphnialumholtzi2
+    media/VF/d_magna/D_magna_headshield
+    media/daphniamagna1/daphniamagna1
+    media/holopedium1/Holopedium1
+    media/daphniamagna2/D_magna_molting
+    media/daphniamagna3/D_magna_mating
+    media/daphniaparvula1/DparvulaPostAbdomRejectRotifer
+    media/holopedium1/Holopedium1
+    media/cyclopoid1/cyclopoid1
+    media/cyclopoid1/cyclopoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/fairyshrimp1/fairyshrimp1
+    media/euclanis1/euclanis1
+    media/euclanis1/euclanis1
+    media/euclanis1/euclanis1
+    media/euclanis1/euclanis1
+    media/cyclopoid1/cyclopoid1
+    media/cyclopoid1/cyclopoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/harpacticoid1/harpacticoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/holopedium2/holopedium_feeding
+    media/holopedium1/Holopedium1
+    media/hydracarina1/hydracarina1
+    media/kellicottia1/kellicottia1
+    media/kellicottia1/kellicottia1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/keratellataura1/keratellataura1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/keratella1/keratella1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/leptodora1/leptodora1
+    media/leptodora2/leptodora2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/macrocyclops_albidus/M_albidus_mating
+    media/cyclopoid1/cyclopoid1
+    media/cyclopoid1/cyclopoid1
+    media/VF/m_edax_fifthleg/m_edax_female5thleg_40X
+    media/VF/m_edax_fifthleg/m_edax_female5thleg_64X
+    media/VF/m_edax_hyal_vert/m_edax_hyaline_vert_40X
+    media/VF/m_edax_hyal_vert/m_edax_hyaline_vert_64X
+    media/cyclopoid1/cyclopoid1
+    media/cyclopoid1/cyclopoid1
+    media/cyclopoid1/cyclopoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/cyclopoid1/cyclopoid1
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/polyarthra1/polyarthra1
+    media/polyarthra1/polyarthra1
+    media/polyarthra1/polyarthra1
+    media/polyarthra1/polyarthra1
+    media/polyarthra1/polyarthra1
+    media/polyphemus1/polyphemus1
+    media/polyphemus2/polyphemus2
+    media/scapholeberis1/Schapholeberis1
+    media/sidacrystallina/sida_feeding
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/VF/S_pygmeus/S_pygmeus_5th_leg
+    media/calanoid1/calanoid1
+    media/calanoid2/calanoid2
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/synchaeta1/synchaeta1
+    media/Trichocerca_cylindrica1/Trichocerca_cylindrica1
+    media/cyclopoid1/cyclopoid1
+
+detail figures using DRAFT alt text (needs review): 315
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_pa_600x600.jpg
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_Asetae_600x600.jpg
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_pc_600x600.jpg
+    acantholeberis-curvirostris: html/Organisms/CCladocera/FMacrothricidae/GAcantholeberis/Acantholeberis_curvirostris/A_curvirostris_ventroposterior_600x600.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/A_harpae_pc_600x600.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/A_harpae_pa_600x600.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/Antennae_setae_600x600.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/A_harpae_ia_600x600.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/crest_variation.jpg
+    acroperus-harpae: html/Organisms/CCladocera/FChydoridae/GAcroperus/Acroperus_harpae/A_harpae_ant_600x600.jpg
+    aglaodiaptomus-clavipes: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_clavipes/A_clavipes_hyalinelamella_600x600.jpg
+    aglaodiaptomus-clavipes: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_clavipes/A_clavipes_hook_600x600.jpg
+    aglaodiaptomus-clavipes: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_clavipes/A_clavipes_hookedsetae_600x600.jpg
+    aglaodiaptomus-leptopus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/A_leptopus_caudalsetae_600x600.jpg
+    aglaodiaptomus-leptopus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/A_leptopus_hyaline_600x600.jpg
+    aglaodiaptomus-leptopus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/A_leptopus_antenna_600x600.jpg
+    aglaodiaptomus-leptopus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/A_leptopus_left_processes_300x500.jpg
+    aglaodiaptomus-leptopus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/A_leptopus_right_b_segment_2_600x600.jpg
+    aglaodiaptomus-leptopus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/A_leptopus_5th_leg_600x600.jpg
+    aglaodiaptomus-spatulocrenatus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/A_spatulocrenatus_cr_600x600.jpg
+    aglaodiaptomus-spatulocrenatus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/A_spatulocrenatus_antennaeprocess_600x600.jpg
+    aglaodiaptomus-spatulocrenatus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/A_spatulocrenatus_hooks_600x600.jpg
+    aglaodiaptomus-spatulocrenatus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/A_spatulocrenatus_leftendopod_600x600.jpg
+    aglaodiaptomus-spatulocrenatus: html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/A_spatulocrenatus_5thleg_600x600.jpg
+    alona-bicolor: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_bicolor/A_bicolor_pc_600x600.jpg
+    alona-bicolor: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_bicolor/A_bicolor_ag_600x600.jpg
+    alona-bicolor: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_bicolor/A_bicolor_lf_600x600.jpg
+    alona-bicolor: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_bicolor/A_bicolor_rostrum_600x600.jpg
+    alona-bicolor: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_bicolor/A_bicolor_labrum_600x600.jpg
+    alona-rustica: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_rustica/Alona_rustica_bs_600x300.jpg
+    alona-rustica: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_rustica/Alona_rustica_ag_600x600.jpg
+    alona-rustica: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_rustica/Alona_rustica_md_600x600.jpg
+    alona-rustica: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_rustica/Alona_rustica_hp_400x625.jpg
+    alona-rustica: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_rustica/Alona_rustica_rostrum_500x500.jpg
+    alona-setulosa: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_setulosa/Alona_setulosa_pc_600x600.jpg
+    alona-setulosa: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_setulosa/Alona_setulosa_ag2_600x600.jpg
+    alona-setulosa: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_setulosa/Alona_setulosa_md_600x600.jpg
+    alona-setulosa: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_setulosa/Alona_setulosa_lf_600x600.jpg
+    alona-setulosa: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_setulosa/Alona_setulosa_lb_600x600.jpg
+    alona-setulosa: html/Organisms/CCladocera/FChydoridae/GAlona/Alona_setulosa/Alona_setulosa_hp_400x625.jpg
+    alonella-excisa: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_excisa/A_excisa_600x600_vp.jpg
+    alonella-excisa: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_excisa/A_excisa_valves_600x600.jpg
+    alonella-excisa: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_excisa/Alonella_excisa_pm_600x600.jpg
+    alonella-excisa: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_excisa/A_excisa_pa_700x350.jpg
+    alonella-exigua: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_exigua/A_exigua_vp_700x350.jpg
+    alonella-exigua: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_exigua/A_exigua_valves_600x600.jpg
+    alonella-exigua: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_exigua/A_exigua_pm_600x600.jpg
+    alonella-exigua: html/Organisms/CCladocera/FChydoridae/GAlonella/Alonella_exigua/A_exigua_pa_600x600.jpg
+    alonopsis-americana: html/Organisms/CCladocera/FChydoridae/GAlonopsis/Alonopsis_americana/A_americana_pc_600x600.jpg
+    alonopsis-americana: html/Organisms/CCladocera/FChydoridae/GAlonopsis/Alonopsis_americana/A_americana_pa_600x600.jpg
+    alonopsis-americana: html/Organisms/CCladocera/FChydoridae/GAlonopsis/Alonopsis_americana/A_americana_ia_600x600.jpg
+    alonopsis-americana: html/Organisms/CCladocera/FChydoridae/GAlonopsis/Alonopsis_americana/A_americana_valves_700x350.jpg
+    alonopsis-americana: html/Organisms/CCladocera/FChydoridae/GAlonopsis/Alonopsis_americana/A_americana_hp_600x600.jpg
+    arctodiaptomus-dorsalis: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_dorsalis/A_dorsalis_curvedprocess_600x600.jpg
+    arctodiaptomus-dorsalis: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_dorsalis/A_dorsalis_fithleg_600x600.jpg
+    arctodiaptomus-dorsalis: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_dorsalis/A_dorsalis_segment14_600x600.jpg
+    arctodiaptomus-floridanus: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_floridanus/A_floridanus_process_600x600.jpg
+    arctodiaptomus-floridanus: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_floridanus/A_floridanus_lateralspine_600x600.jpg
+    arctodiaptomus-floridanus: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_floridanus/A_floridanus_5th_600x600.jpg
+    arctodiaptomus-floridanus: html/Organisms/CCopepoda/OCalanoida/GArctodiaptomus/Arctodiaptomus_floridanus/A_floridanus_female_cr_600x600.jpg
+    bosmina-longirostris: html/Organisms/CCladocera/FBosminidae/GBosmina/Bosmina_longirostris/b_longirostris_cornuta_600x600.jpg
+    bosmina-longirostris: html/Organisms/CCladocera/FBosminidae/GBosmina/Bosmina_longirostris/Blongirostris6large.jpg
+    bosminopsis-deitersi: html/Organisms/CCladocera/FBosminidae/GBosminopsis/Bosminopsis_deitersi/B_deitersi_anterior_600x600.jpg
+    bosminopsis-deitersi: html/Organisms/CCladocera/FBosminidae/GBosminopsis/Bosminopsis_deitersi/B_deitersi_pa_600x600.jpg
+    brachionus-variabilis: html/Organisms/PRotifera/GBrachionus/brachionus_variabilis/Brachionus_variabilis_anterior_600x400.jpg
+    brachionus-variabilis: html/Organisms/PRotifera/GBrachionus/brachionus_variabilis/Brachionus_variabilis_posterior_600x400.jpg
+    camptocercus-spp: html/Organisms/CCladocera/FChydoridae/GCamptocercus/Camptocercus_sp/Antennal_setae_700x350.jpg
+    camptocercus-spp: html/Organisms/CCladocera/FChydoridae/GCamptocercus/Camptocercus_sp/camptocercus_hp_400x625.jpg
+    cercopagis-pengoi: html/Organisms/CCladocera/FCentropagididae/GCercopagis/Cercopagis_pengoi/Cercopagis_pengoi_hook_600x600.jpg
+    cercopagis-pengoi: html/Organisms/CCladocera/FCentropagididae/GCercopagis/Cercopagis_pengoi/Cercopagis_pengoi_bp_600x600.jpg
+    ceriodaphnia-dubia: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_dubia/C_dubia_fine_pecten_600x600.jpg
+    ceriodaphnia-dubia: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_dubia/C_dubia_toothed_pecten_600x600.jpg
+    ceriodaphnia-lacustris: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_lacustris/C_lacustris_pc_600x600.jpg
+    ceriodaphnia-lacustris: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_lacustris/C_lacustris_sp_600x600.jpg
+    ceriodaphnia-laticaudata: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_laticaudata/c_laticaudata_pc_600x524.jpg
+    ceriodaphnia-reticulata: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_reticulata/c_reticulata_pc_600x600.jpg
+    ceriodaphnia-reticulata: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_reticulata/c_reticulata_valves_600x600.jpg
+    ceriodaphnia-rigaudi: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_rigaudi/Ceriodaphnia_rigaudi_horn_600x600.jpg
+    ceriodaphnia-rigaudi: html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_rigaudi/Ceriodaphnia_rigaudi_pal_600x600.jpg
+    chaoborus-albipes-flavicans: html/Organisms/otherarthropods/GChaoborus/chaoborus_albipes/C_flavicans_mf_360x360.jpg
+    chaoborus-albipes-flavicans: html/Organisms/otherarthropods/GChaoborus/chaoborus_albipes/C_flavicans_af_600x600.jpg
+    chaoborus-albipes-flavicans: html/Organisms/otherarthropods/GChaoborus/chaoborus_albipes/C_flavicans2_la_600x600.jpg
+    chaoborus-americanus: html/Organisms/otherarthropods/GChaoborus/chaoborus_americanus/C_americanus_pla01_600x600.jpg
+    chaoborus-americanus: html/Organisms/otherarthropods/GChaoborus/chaoborus_americanus/C_americanus_mf_600x600.jpg
+    chaoborus-americanus: html/Organisms/otherarthropods/GChaoborus/chaoborus_americanus/C_americanus_af_700x350.jpg
+    cyclops-scutifer: html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/Cyclops_scutifer_antenna_600x600.jpg
+    cyclops-scutifer: html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/Cyclops_scutifer_ridge_600x600.jpg
+    cyclops-scutifer: html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/Cyclops_scutifer_hair_600x600.jpg
+    cyclops-scutifer: html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/Cyclops_scutifer_5th_600x600.jpg
+    cyclops-scutifer: html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/Cyclops_scutifer8large.jpg
+    daphnia-ambigua: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_ambigua/D_ambigua_pc_600x600.jpg
+    daphnia-ambigua: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_ambigua/Daphnia_ambigua_head_600x600.jpg
+    daphnia-ambigua: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_ambigua/Daphnia_ambigua_ant_600x600.jpg
+    daphnia-dubia: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_dubia/daphnia_dubia_head_600x600.jpg
+    daphnia-dubia: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_dubia/daphnia_dubia_pc_600x600.jpg
+    daphnia-dubia: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_dubia/daphnia_dubia_ap2_600x600.jpg
+    daphnia-dubia: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_dubia/daphnia_dubia_ventral_600x600.jpg
+    daphnia-laevis: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_laevis/Daphnia_laevis_pc_600x600.jpg
+    daphnia-laevis: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_laevis/Daphnia_laevis_ant_600x600.jpg
+    daphnia-laevis: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_laevis/Daphnia_laevis_head_600x600.jpg
+    daphnia-laevis: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_laevis/Daphnia_laevis_ap1_600x600.jpg
+    daphnia-laevis: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_laevis/Daphnia_laevis_ap_600x452.jpg
+    daphnia-laevis: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_laevis/Daphnia_laevis_spines_452x600.jpg
+    daphnia-longiremus: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_longiremus/Daphnia_longiremus_head_600x600.jpg
+    daphnia-longiremus: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_longiremus/Daphnia_longiremus_pc_600x600.jpg
+    daphnia-longiremus: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_longiremus/Daphnia_longiremus_ant2_600x600.jpg
+    daphnia-lumholtzi: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_lumholtzi/Daphnia_lumholtzi_cs_600x600.jpg
+    daphnia-lumholtzi: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_lumholtzi/Daphnia_lumholtzi_head_680x500.jpg
+    daphnia-lumholtzi: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_lumholtzi/Daphnia_lumholtzi_fornices_800x400.jpg
+    daphnia-lumholtzi: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_lumholtzi/Daphnia_lumholtzi_ventral_600x600.jpg
+    daphnia-magna: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_magna/Daphnia_magna_hs_600x600.jpg
+    daphnia-magna: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_magna/daphnia_magna_pa_600x600.jpg
+    daphnia-mendotae: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_mendotae/daphnia_mendotae_headvar_600x600.jpg
+    daphnia-mendotae: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_mendotae/daphnia_mendotae_ap_600x600.jpg
+    daphnia-mendotae: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_mendotae/daphnia_mendotae_pc_600x600.jpg
+    daphnia-parvula: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_parvula/Daphnia_parvula_pc1_600x600.jpg
+    daphnia-parvula: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_parvula/Daphnia_parvula_head_600x600.jpg
+    daphnia-retrocurva: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_retrocurva/Daphnia_retrocurva_pa_600x600.jpg
+    daphnia-retrocurva: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_retrocurva/D_retrocurva_rostrum_600x600.jpg
+    daphnia-retrocurva: html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_retrocurva/D_retrocurva_helmets_542x650.jpg
+    diacyclops-bicuspidatus-odessanus: html/Organisms/CCopepoda/OCyclopoida/GDiacyclops/diacyclops_bicuspidatus_odessanus/Dbo_02_antennule_600x600_roll.jpg
+    diacyclops-bicuspidatus-odessanus: html/Organisms/CCopepoda/OCyclopoida/GDiacyclops/diacyclops_bicuspidatus_odessanus/Dbo_01_5th_600x600.jpg
+    diacyclops-bicuspidatus-odessanus: html/Organisms/CCopepoda/OCyclopoida/GDiacyclops/diacyclops_bicuspidatus_odessanus/Dbo_05_cr_625x512.jpg
+    disparalona-hamata: html/Organisms/CCladocera/FChydoridae/GDisparalona/Disparalona_hamata/D_hamata_pa3_600x450.jpg
+    disparalona-hamata: html/Organisms/CCladocera/FChydoridae/GDisparalona/Disparalona_hamata/D_hamata_pa4_600x450.jpg
+    disparalona-hamata: html/Organisms/CCladocera/FChydoridae/GDisparalona/Disparalona_hamata/D_hamata_ia_600x600.jpg
+    disparalona-hamata: html/Organisms/CCladocera/FChydoridae/GDisparalona/Disparalona_hamata/D_hamata_striae_600x600.jpg
+    disparalona-hamata: html/Organisms/CCladocera/FChydoridae/GDisparalona/Disparalona_hamata/D_hamata_1stleg_600x700.jpg
+    ergasilus-spp: html/Organisms/CCopepoda/OPoecilostomatoida/Ergasilus/Ergasilus_claw_600x600.jpg
+    eubosmina-coregoni: html/Organisms/CCladocera/FBosminidae/GEubosmina/Eubosmina_coregoni/E_coregoni_pc_03_500x600.jpg
+    eubosmina-coregoni: html/Organisms/CCladocera/FBosminidae/GEubosmina/Eubosmina_coregoni/E_coregoni_sb_02_600x600.jpg
+    eucyclops-agilis: html/Organisms/CCopepoda/OCyclopoida/GEucyclops/Eucyclops_agilis/eucyclops_agilis_cr_01_600x500.jpg
+    eucyclops-agilis: html/Organisms/CCopepoda/OCyclopoida/GEucyclops/Eucyclops_agilis/eucyclops_agilis_ant_01_600x600.jpg
+    eucyclops-agilis: html/Organisms/CCopepoda/OCyclopoida/GEucyclops/Eucyclops_agilis/eucyclops_agilis_5th_01_600x600.jpg
+    eucyclops-agilis: html/Organisms/CCopepoda/OCyclopoida/GEucyclops/Eucyclops_agilis/eucyclops_agilis_4th_600x475.jpg
+    eucyclops-agilis: html/Organisms/CCopepoda/OCyclopoida/GEucyclops/Eucyclops_agilis/eucyclops_agilis_hm_01_600x600.jpg
+    eucyclops-agilis: html/Organisms/CCopepoda/OCyclopoida/GEucyclops/Eucyclops_agilis/eucyclops_agilis_hm_02_600x600.jpg
+    eurytemora-affinis: html/Organisms/CCopepoda/OCalanoida/GEurytemora/Eurytemora_affinis/E_affins_caudalramus_600x600.jpg
+    eurytemora-affinis: html/Organisms/CCopepoda/OCalanoida/GEurytemora/Eurytemora_affinis/Eurytemora_affinis_maxillipeds.jpg
+    eurytemora-affinis: html/Organisms/CCopepoda/OCalanoida/GEurytemora/Eurytemora_affinis/Eurytemora_affinis_male_5th_600x600.jpg
+    eurytemora-affinis: html/Organisms/CCopepoda/OCalanoida/GEurytemora/Eurytemora_affinis/Eurytemora_affinis_male_5th_666x425.jpg
+    eurytemora-affinis: html/Organisms/CCopepoda/OCalanoida/GEurytemora/Eurytemora_affinis/E_affinis_female_5th_613x400.jpg
+    eurytemora-affinis: html/Organisms/CCopepoda/OCalanoida/GEurytemora/Eurytemora_affinis/E_affinis_female_metawing.jpg
+    graptoleberis-testudinaria: html/Organisms/CCladocera/FChydoridae/GGraptoleberis/Graptoleberis_testudinaria/g_test_ia_600x600.jpg
+    graptoleberis-testudinaria: html/Organisms/CCladocera/FChydoridae/GGraptoleberis/Graptoleberis_testudinaria/g_testudinaria5_600x600.jpg
+    graptoleberis-testudinaria: html/Organisms/CCladocera/FChydoridae/GGraptoleberis/Graptoleberis_testudinaria/g_test_pa_600x600.jpg
+    hesperodiaptomus-franciscanus: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_franciscanus/H_franciscanus_01_cr_800x400.jpg
+    hesperodiaptomus-franciscanus: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_franciscanus/H_franciscanus_2nd_left_exopod_600x600.jpg
+    hesperodiaptomus-franciscanus: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_franciscanus/H_franciscanus_process_600x600.jpg
+    hesperodiaptomus-franciscanus: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_franciscanus/H_franciscanus_5th_600x600.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_female_cr_600x452.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_23_600x600.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_lant1to9_600x497.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_male_seg3_600x600.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_fem_seg3_600x600.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_female_14to19_600x452.jpg
+    hesperodiaptomus-shoshone: html/Organisms/CCopepoda/OCalanoida/GHesperodiaptomus/Hesperodiaptomus_shoshone/H_shoshone_5th_600x489.jpg
+    holopedium-gibberum: html/Organisms/CCladocera/FHolopedidae/GHolopedium/Holopedium_gibberum/H_gibberum_bs_500x500.jpg
+    homocyclops-ater: html/Organisms/CCopepoda/OCyclopoida/GHomocyclops/Homocyclops_ater/H_ater_antennae_600x600.jpg
+    homocyclops-ater: html/Organisms/CCopepoda/OCyclopoida/GHomocyclops/Homocyclops_ater/homocyclops_ater_5th_01_600x600.jpg
+    homocyclops-ater: html/Organisms/CCopepoda/OCyclopoida/GHomocyclops/Homocyclops_ater/homocyclops_ater_cr_600x600.jpg
+    ilyocryptus-spp: html/Organisms/CCladocera/FIlyocryptidae/GIlyocryptus/Ilyocryptus_sp/Ilyocryptus_sp_antennule_600x600.jpg
+    ilyocryptus-spp: html/Organisms/CCladocera/FIlyocryptidae/GIlyocryptus/Ilyocryptus_sp/Ilyocryptus_sp_valve_600x600.jpg
+    ilyocryptus-spp: html/Organisms/CCladocera/FIlyocryptidae/GIlyocryptus/Ilyocryptus_sp/Ilyocryptus_sp_pa_600x600.jpg
+    lathonura-rectirostris: html/Organisms/CCladocera/FMacrothricidae/GLathonura/Lathonura_rectirostris/l_rectirostris_antennae_600x500.jpg
+    lathonura-rectirostris: html/Organisms/CCladocera/FMacrothricidae/GLathonura/Lathonura_rectirostris/lathonura_rectirostris_vm_600x600.jpg
+    lathonura-rectirostris: html/Organisms/CCladocera/FMacrothricidae/GLathonura/Lathonura_rectirostris/lathonura_rectirostris_pa1_600x600.jpg
+    lathonura-rectirostris: html/Organisms/CCladocera/FMacrothricidae/GLathonura/Lathonura_rectirostris/lathonura_rectirostris_hp_600x300.jpg
+    latona-glacialis: html/Organisms/CCladocera/FSididae/GLatona/Latona_glacialis/L_glacialis_antennae_600x600.jpg
+    latona-glacialis: html/Organisms/CCladocera/FSididae/GLatona/Latona_glacialis/L_glacialis_hp_600x600.jpg
+    latona-glacialis: html/Organisms/CCladocera/FSididae/GLatona/Latona_glacialis/L_glacialis_eye_600x600.jpg
+    latona-glacialis: html/Organisms/CCladocera/FSididae/GLatona/Latona_glacialis/L_glacialis_pa_600x600.jpg
+    latona-parviremis: html/Organisms/CCladocera/FSididae/GLatona/Latona_parviremis/L_parviremis_ant_600x600.jpg
+    latona-parviremis: html/Organisms/CCladocera/FSididae/GLatona/Latona_parviremis/L_parviremis_eye_600x600.jpg
+    latona-parviremis: html/Organisms/CCladocera/FSididae/GLatona/Latona_parviremis/L_parviremis_antennule_700x350.jpg
+    latona-parviremis: html/Organisms/CCladocera/FSididae/GLatona/Latona_parviremis/L_parviremis_pa02_600x600.jpg
+    leptodiaptomus-ashlandi: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_ashlandi/L_ashlandi_process_600x600.jpg
+    leptodiaptomus-ashlandi: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_ashlandi/L_ashlandi_5th_ls_600x600.jpg
+    leptodiaptomus-ashlandi: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_ashlandi/L_ashlandi_5th_600x600.jpg
+    leptodiaptomus-ashlandi: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_ashlandi/L_ashlandi_female_metawings_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_cr_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_hyaline_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_leftexo_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_2hyaline_01_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_ls_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_ls1000_600x600.jpg
+    leptodiaptomus-coloradensis: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_coloradensis/L_coloradensis_5th_02_600x600.jpg
+    leptodiaptomus-minutus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_minutus/Leptodiaptomus_minutus_cr_600x452.jpg
+    leptodiaptomus-minutus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_minutus/Leptodiaptomus_minutus_process_600x600.jpg
+    leptodiaptomus-minutus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_minutus/Leptodiaptomus_minutus_5th_01_600x600.jpg
+    leptodiaptomus-minutus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_minutus/Leptodiaptomus_minutus_5th_02_600x600.jpg
+    leptodiaptomus-novamexicanus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_novamexicanus/L_novamexicanus_process_600x600.jpg
+    leptodiaptomus-novamexicanus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_novamexicanus/L_novamexicanus_5th_05_600x600.jpg
+    leptodiaptomus-novamexicanus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_novamexicanus/L_novamexicanus_5th_04_600x600.jpg
+    leptodiaptomus-novamexicanus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_novamexicanus/L_novamexicanus_5th_01_600x600.jpg
+    leptodiaptomus-novamexicanus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_novamexicanus/L_novamexicanus_8to13_600x600.jpg
+    leptodiaptomus-nudus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_nudus/Leptodiaptomus_nudus_process_600x600.jpg
+    leptodiaptomus-nudus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_nudus/Leptodiaptomus_nudus_tp_600x530.jpg
+    leptodiaptomus-nudus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_nudus/Leptodiaptomus_nudus_5thendo_600x530.jpg
+    leptodiaptomus-nudus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_nudus/Leptodiaptomus_nudus_ls_600x600.jpg
+    leptodiaptomus-nudus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_nudus/Leptodiaptomus_nudus_5th_600x600.jpg
+    leptodiaptomus-nudus: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_nudus/Leptodiaptomus_nudus_right_600x600.jpg
+    leptodiaptomus-siciloides: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_siciloides/L_siciloides_process_600x600.jpg
+    leptodiaptomus-siciloides: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_siciloides/L_siciloides_5th_01_600x600.jpg
+    leptodiaptomus-siciloides: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_siciloides/L_siciloides_5th_02_600x600.jpg
+    leptodiaptomus-siciloides: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_siciloides/L_siciloides_8to13_600x600.jpg
+    leptodiaptomus-signicauda: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_signicauda/L_signicauda_caudalramus_600x600.jpg
+    leptodiaptomus-signicauda: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_signicauda/L_signicauda_antennaprocess_600x600.jpg
+    leptodiaptomus-signicauda: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_signicauda/L_signicauda_5th_01_600x600.jpg
+    leptodiaptomus-signicauda: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_signicauda/L_signicauda_5th_03_600x600.jpg
+    leptodiaptomus-signicauda: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_signicauda/L_signicauda_5th_02_600x600.jpg
+    leptodiaptomus-signicauda: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_signicauda/L_signicauda_10to13_600x600.jpg
+    leptodiaptomus-tyrrelli: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_tyrrelli/L_tyrrelli_hyaline_600x600.jpg
+    leptodiaptomus-tyrrelli: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_tyrrelli/L_tyrrelli_5th_02_600x600.jpg
+    leptodiaptomus-tyrrelli: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_tyrrelli/L_tyrrelli_exohyaline_600x600.jpg
+    leptodiaptomus-tyrrelli: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_tyrrelli/L_tyrrelli_ls_600x600.jpg
+    leptodiaptomus-tyrrelli: html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_tyrrelli/L_tyrrelli_5th_01_600x600.jpg
+    leptodora-kindti: html/Organisms/CCladocera/FLeptodoridae/GLeptodora/Leptodora_kindti/L_kindti_legs2_600x600.jpg
+    leptodora-kindti: html/Organisms/CCladocera/FLeptodoridae/GLeptodora/Leptodora_kindti/L_kindti_legs_600x600.jpg
+    leptodora-kindti: html/Organisms/CCladocera/FLeptodoridae/GLeptodora/Leptodora_kindti/L_kindti_eye_700x350.jpg
+    leptodora-kindti: html/Organisms/CCladocera/FLeptodoridae/GLeptodora/Leptodora_kindti/L_kindti_carapace_700x350.jpg
+    leydigia-spp: html/Organisms/CCladocera/FChydoridae/GLeydigia/Leydigia_sp/Leydigia_sp_pa_600x600.jpg
+    leydigia-spp: html/Organisms/CCladocera/FChydoridae/GLeydigia/Leydigia_sp/Leydigia_sp_ocellus_600x600.jpg
+    limnocalanus-macrurus: html/Organisms/CCopepoda/OCalanoida/GLimnocalanus/Limnocalanus_macrurus/Limnocalanus_macrurus_cr_02_600x600.jpg
+    limnocalanus-macrurus: html/Organisms/CCopepoda/OCalanoida/GLimnocalanus/Limnocalanus_macrurus/Limnocalanus_macrurus_cr_01_600x600.jpg
+    limnocalanus-macrurus: html/Organisms/CCopepoda/OCalanoida/GLimnocalanus/Limnocalanus_macrurus/Limnocalanus_macrurus_maxillipeds_03_600x600.jpg
+    macrocyclops-albidus: html/Organisms/CCopepoda/OCyclopoida/GMacrocyclops/Macrocyclops_albidus/M_albidus_antennae_600x600.jpg
+    macrocyclops-albidus: html/Organisms/CCopepoda/OCyclopoida/GMacrocyclops/Macrocyclops_albidus/M_albidus_hm_600x600.jpg
+    macrocyclops-albidus: html/Organisms/CCopepoda/OCyclopoida/GMacrocyclops/Macrocyclops_albidus/M_albidus_cr_600x600.jpg
+    macrocyclops-albidus: html/Organisms/CCopepoda/OCyclopoida/GMacrocyclops/Macrocyclops_albidus/M_albidus_inner_cr_600x600.jpg
+    macrocyclops-albidus: html/Organisms/CCopepoda/OCyclopoida/GMacrocyclops/Macrocyclops_albidus/M_albidus_5th_600x600.jpg
+    microcyclops-rubellus: html/Organisms/CCopepoda/OCyclopoida/GMicrocyclops/Microcyclops_rubellus/Microcyclops_rubellus2large.jpg
+    microcyclops-rubellus: html/Organisms/CCopepoda/OCyclopoida/GMicrocyclops/Microcyclops_rubellus/Microcyclops_rubellus3large.jpg
+    microcyclops-rubellus: html/Organisms/CCopepoda/OCyclopoida/GMicrocyclops/Microcyclops_rubellus/m_rubellus_antennule_600x600.jpg
+    microcyclops-rubellus: html/Organisms/CCopepoda/OCyclopoida/GMicrocyclops/Microcyclops_rubellus/m_rubellus_cr_600x600.jpg
+    microcyclops-rubellus: html/Organisms/CCopepoda/OCyclopoida/GMicrocyclops/Microcyclops_rubellus/m_rubellus_02_600x600.jpg
+    moina-macrocopa: html/Organisms/CCladocera/FMoinidae/GMoina/Moina_macrocopa/M_macrocopa_pc_600x600.jpg
+    moina-macrocopa: html/Organisms/CCladocera/FMoinidae/GMoina/Moina_macrocopa/Moina_Brachionus_600x600.jpg
+    moina-micrura: html/Organisms/CCladocera/FMoinidae/GMoina/Moina_micrura/Moina_micrura_pa_01_600x600.jpg
+    moina-micrura: html/Organisms/CCladocera/FMoinidae/GMoina/Moina_micrura/Moina_micrura_sd_600x600.jpg
+    moina-micrura: html/Organisms/CCladocera/FMoinidae/GMoina/Moina_micrura/Moina_micrura_pa_02_600x600.jpg
+    ophryoxus-gracilis: html/Organisms/CCladocera/FMacrothricidae/GOphyroxus/Ophryoxus_gracilis/O_glacilis_Asetae_600x600.jpg
+    ophryoxus-gracilis: html/Organisms/CCladocera/FMacrothricidae/GOphyroxus/Ophryoxus_gracilis/O_glacilis_antennules_600x600.jpg
+    ophryoxus-gracilis: html/Organisms/CCladocera/FMacrothricidae/GOphyroxus/Ophryoxus_gracilis/O_glacilis_pa_600x600.jpg
+    ophryoxus-gracilis: html/Organisms/CCladocera/FMacrothricidae/GOphyroxus/Ophryoxus_gracilis/O_glacilis_pc2_600x600.jpg
+    ophryoxus-gracilis: html/Organisms/CCladocera/FMacrothricidae/GOphyroxus/Ophryoxus_gracilis/O_glacilis_prelabral_700x350.jpg
+    ophryoxus-gracilis: html/Organisms/CCladocera/FMacrothricidae/GOphyroxus/Ophryoxus_gracilis/O_glacilis_prelabral_700x350.jpg
+    orthocyclops-modestus: html/Organisms/CCopepoda/OCyclopoida/GOrthocyclops/Orthocyclops_modestus/O_modestus_cr_600x600.jpg
+    orthocyclops-modestus: html/Organisms/CCopepoda/OCyclopoida/GOrthocyclops/Orthocyclops_modestus/O_modestus_dg_600x600.jpg
+    orthocyclops-modestus: html/Organisms/CCopepoda/OCyclopoida/GOrthocyclops/Orthocyclops_modestus/O_modestus_5th_01_600x600.jpg
+    oxyurella-brevicaudis: html/Organisms/CCladocera/FChydoridae/GOxyurella/Oxyurella_brevicaudis/O_brevicaudis_md_600x600.jpg
+    oxyurella-brevicaudis: html/Organisms/CCladocera/FChydoridae/GOxyurella/Oxyurella_brevicaudis/O_brevicaudis_lf_600x600.jpg
+    oxyurella-brevicaudis: html/Organisms/CCladocera/FChydoridae/GOxyurella/Oxyurella_brevicaudis/O_brevicaudis_ag_600x600.jpg
+    oxyurella-brevicaudis: html/Organisms/CCladocera/FChydoridae/GOxyurella/Oxyurella_brevicaudis/O_brevicaudis_at_600x600.jpg
+    parophryoxus-tubulatus: html/Organisms/CCladocera/FMacrothricidae/GParophyroxus/Parophyroxus_tubulatus/P_tubulatus_antform_600x600.jpg
+    parophryoxus-tubulatus: html/Organisms/CCladocera/FMacrothricidae/GParophyroxus/Parophyroxus_tubulatus/P_tubulatus_posterior_600x600.jpg
+    parophryoxus-tubulatus: html/Organisms/CCladocera/FMacrothricidae/GParophyroxus/Parophyroxus_tubulatus/P_tubulatus_antennule_600x600.jpg
+    parophryoxus-tubulatus: html/Organisms/CCladocera/FMacrothricidae/GParophyroxus/Parophyroxus_tubulatus/P_tubulatus_antennule2_600x600.jpg
+    parophryoxus-tubulatus: html/Organisms/CCladocera/FMacrothricidae/GParophyroxus/Parophyroxus_tubulatus/P_tubulatus_pc_600x600.jpg
+    parophryoxus-tubulatus: html/Organisms/CCladocera/FMacrothricidae/GParophyroxus/Parophyroxus_tubulatus/P_tubulatus_pa_600x600.jpg
+    pleuroxus-denticulatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_denticulatus/P_denticulatus_pc_600x600.jpg
+    pleuroxus-denticulatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_denticulatus/P_denticulatus_pa_600x600.jpg
+    pleuroxus-denticulatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_denticulatus/P_denticulatus_pa2_600x600.jpg
+    pleuroxus-procurvus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_procurvus/P_procurvus_pa_600x600.jpg
+    pleuroxus-procurvus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_procurvus/P_procurvus_pm_600x600.jpg
+    pleuroxus-procurvus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_procurvus/P_procurvus_rostrum_600x600.jpg
+    pleuroxus-straminius: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_straminius/P_straminius_pc_600x600.jpg
+    pleuroxus-straminius: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_straminius/P_straminius_pm2_600x600.jpg
+    pleuroxus-straminius: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_straminius/P_straminius_pm2_600x600.jpg
+    pleuroxus-straminius: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_straminius/P_straminius_md2_700x350.jpg
+    pleuroxus-straminius: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_straminius/P_straminius_pa_600x600.jpg
+    pleuroxus-striatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_striatus/P_striatus_pc_600x600.jpg
+    pleuroxus-striatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_striatus/P_striatus_pm2_600x600.jpg
+    pleuroxus-striatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_striatus/P_striatus_pm2_600x600.jpg
+    pleuroxus-striatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_striatus/P_striatus_valves_600x600.jpg
+    pleuroxus-striatus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_striatus/P_striatus_pa_600x600.jpg
+    pleuroxus-trigonellus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_trigonellus/P_trigonellus_pc_600x600.jpg
+    pleuroxus-trigonellus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_trigonellus/P_trigonellus_ia_800x400.jpg
+    pleuroxus-trigonellus: html/Organisms/CCladocera/FChydoridae/GPleuroxus/Pleuroxus_trigonellus/P_trigonellus_pa_600x600.jpg
+    rhynochotalona-falcata: html/Organisms/CCladocera/FChydoridae/GRhynchotalona/Rhynchotalona_falcata/R_falcata_pc_600x600.jpg
+    rhynochotalona-falcata: html/Organisms/CCladocera/FChydoridae/GRhynchotalona/Rhynchotalona_falcata/R_falcata_md_600x600.jpg
+    rhynochotalona-falcata: html/Organisms/CCladocera/FChydoridae/GRhynchotalona/Rhynchotalona_falcata/R_falcata_ld_600x600.jpg
+    rhynochotalona-falcata: html/Organisms/CCladocera/FChydoridae/GRhynchotalona/Rhynchotalona_falcata/R_falcata_rostrum_600x600.jpg
+    sida-crystallina: html/Organisms/CCladocera/FSididae/GSida/Sida_crystallina/S_crystallina_legs_600x600.jpg
+    sida-crystallina: html/Organisms/CCladocera/FSididae/GSida/Sida_crystallina/S_crystallina_antennae_557x557.jpg
+    simocephalus-exspinosus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/Simocephalus_exspinosus/S_exspinosus_pc_600x600.jpg
+    simocephalus-exspinosus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/Simocephalus_exspinosus/S_exspinosus_head_700x350.jpg
+    simocephalus-exspinosus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/Simocephalus_exspinosus/S_exspinosus_head_700x350.jpg
+    simocephalus-serrulatus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/simocephalus_serrulatus/S_serrulatus_pc_600x600.jpg
+    simocephalus-serrulatus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/simocephalus_serrulatus/S_serrulatus_ocellus_700x350.jpg
+    simocephalus-serrulatus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/simocephalus_serrulatus/S_serrulatus_vertex_600x600.jpg
+    simocephalus-vetulus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/Simocephalus_vetulus/S_vetulus_600x600_pecten.jpg
+    simocephalus-vetulus: html/Organisms/CCladocera/FDaphnidae/GSimocephalus/Simocephalus_vetulus/S_vetulus_ocellus_600x600.jpg
+    skistodiaptomus-mississippiensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/Skistodiaptomus_mississippiensis/S_mississippiensis_seg23_600x600.jpg
+    skistodiaptomus-mississippiensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/Skistodiaptomus_mississippiensis/S_mississippiensis_5th_03_600x300.jpg
+    skistodiaptomus-mississippiensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/Skistodiaptomus_mississippiensis/S_mississippiensis_5th_04_600x300.jpg
+    skistodiaptomus-mississippiensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/Skistodiaptomus_mississippiensis/S_mississippiensis_10to13_600x600.jpg
+    skistodiaptomus-oregonensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_oregonensis/S_oregonensis_seg23_600x421.jpg
+    skistodiaptomus-oregonensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_oregonensis/S_oregonensis_5th_05_660x600.jpg
+    skistodiaptomus-oregonensis: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_oregonensis/S_oregonensis_5th_02_600x600.jpg
+    skistodiaptomus-pallidus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pallidus/S_pallidus_cr_600x600.jpg
+    skistodiaptomus-pallidus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pallidus/S_pallidus_left5th_02_600x600.jpg
+    skistodiaptomus-pallidus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pallidus/S_pallidus_5th_350x600.jpg
+    skistodiaptomus-pygmaeus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/S_pygmaeus_cr_600x473.jpg
+    skistodiaptomus-pygmaeus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/S_pygmaeus_seg23_600x473.jpg
+    skistodiaptomus-pygmaeus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/S_pygmaeus_5th_04_600x600.jpg
+    skistodiaptomus-pygmaeus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/S_pygmaeus_leftexopod_600x600.jpg
+    skistodiaptomus-pygmaeus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/S_pygmaeus_5th_01_600x600.jpg
+    skistodiaptomus-pygmaeus: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/S_pygmaeus_claw_426x600.jpg
+    skistodiaptomus-reighardi: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/Skistodiaptomus_reighardi/S_reighardi_seg23_600x521.jpg
+    skistodiaptomus-reighardi: html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/Skistodiaptomus_reighardi/S_reighardi_5th_600x600.jpg
+    streblocerus-serricaudatus: html/Organisms/CCladocera/FMacrothricidae/GStreblocerus/Streblocerus_serricaudatus/S_serricaudatus_antennae_600x600.jpg
+    streblocerus-serricaudatus: html/Organisms/CCladocera/FMacrothricidae/GStreblocerus/Streblocerus_serricaudatus/S_serricaudatus_pa_600x600.jpg
+    streblocerus-serricaudatus: html/Organisms/CCladocera/FMacrothricidae/GStreblocerus/Streblocerus_serricaudatus/S_serricaudatus_antennule_700x350.jpg
+    streblocerus-serricaudatus: html/Organisms/CCladocera/FMacrothricidae/GStreblocerus/Streblocerus_serricaudatus/S_serricaudatus_valve_600x600.jpg
+
+links in text that could not be resolved: 30
+    aglaodiaptomus-leptopus: page:html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/aglaodiaptomusleptopus_images.html
+    camptocercus-spp: page:html/Organisms/CCladocera/FChydoridae/GCamptocercus/Camptocercus_sp/C_flexing.htm
+    ceriodaphnia-dubia: page:html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_dubia/c_dubia_male.htm
+    ceriodaphnia-reticulata: page:html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_reticulata/c_reticulata_male.htm
+    ceriodaphnia-reticulata: page:html/Organisms/CCladocera/FDaphnidae/GCeriodaphnia/Ceriodaphnia_reticulata/c_reticulata_mating.htm
+    conochiloides-coenobasis: page:html/rotifer_trophy.htm
+    conochiloides-dossuarius: page:html/rotifer_trophy.htm
+    conochiloides-natans: page:html/rotifer_trophy.htm
+    cyclops-scutifer: page:html/barcoding.html
+    daphnia-catawba: page:html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_catawba/DcatawbaNecktooth.html
+    daphnia-magna: page:html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_magna/Dmagna_dvm.html
+    daphnia-middendorffiana: page:html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_distributions.html
+    daphnia-middendorffiana: page:html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_carapace_strength.html
+    daphnia-pulex: page:html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_pulex/d_pulex_neckteeth.html
+    diacyclops-thomasi: page:html/Organisms/CCopepoda/OCyclopoida/GDiacyclops/diacyclops_thomasi/diacyclops_thomasifig1.htm
+    diacyclops-thomasi: page:html/barcoding.html
+    epischura-lacustris: page:html/barcoding.html
+    epischura-nordenskildi: page:html/barcoding.html
+    leptodiaptomus-minutus: page:html/barcoding.html
+    mesocyclops-edax: page:html/barcoding.html
+    skistodiaptomus-pygmaeus: page:html/barcoding.html
+    synchaeta-asymmetrica: page:html/rotifer_trophy.htm
+    synchaeta-grandis: page:html/rotifer_trophy.htm
+    synchaeta-kitina: page:html/rotifer_trophy.htm
+    synchaeta-lakowitziana: page:html/rotifer_trophy.htm
+    synchaeta-oblonga: page:html/rotifer_trophy.htm
+    synchaeta-pectinata: page:html/rotifer_trophy.htm
+    synchaeta-stylata: page:html/rotifer_trophy.htm
+    synchaeta-tremula: page:html/rotifer_trophy.htm
+    tropocyclops-prasinus-mexicanus: page:html/barcoding.html
+
+missing image file: 5
+    microcyclops-rubellus: #1
+    key: html/choices/cladocera/42/frame41choice1.jpg
+    key: html/choices/cladocera/FChydoridae/65/Fchy_frame60choice1b.jpg
+    bosminalongirostris-figure1: #
+    copepoddissection: #
+
+pages whose title came from their own first heading (the old <title> was the generic site name): 8
+    alona.md -> Taxonomy
+    alonella-disparalona.md -> Taxonomy
+    ccopepodafemale.md -> Taxonomy
+    chydoridae-onebasal.md -> Taxonomy
+    chydoridae.md -> Taxonomy
+    macrothricidae.md -> Taxonomy
+    naupliuscalanoid.md -> Calanoid nauplius
+    naupliuscyclopoid.md -> Cyclopoid nauplius
+
+pages formatted as reference lists (add 'style: none' to turn this off): 1
+    references.md
+
+guide pictures using the standard description (write alt_text_new where a step needs its own): 58
+    cladocera/232/232: frame232guide.jpg
+    cladocera/233/233: frame233guide.jpg
+    cladocera/238/238: frame238guide.jpg
+    cladocera/239/239: frame239guide.jpg
+    cladocera/245/245: frame245guide.jpg
+    cladocera/249/249: frame249guide.jpg
+    cladocera/250/250: frame250guide.jpg
+    cladocera/252/252: frame252guide.jpg
+    cladocera/257/257: frame257guide.jpg
+    cladocera/41/41: frame41guide.jpg
+    cladocera/43/43: frame43guide.jpg
+    cladocera/82/82: frame82guide.jpg
+    copepoda/100/100: frame100guide.jpg
+    copepoda/101/101: frame101guide.jpg
+    copepoda/103/103: frame103guide.jpg
+    copepoda/105/105: frame105guide.jpg
+    copepoda/105a/105a: frame105aguide.jpg
+    copepoda/15/15: frame15guide.jpg
+    copepoda/17/17: frame17guide.jpg
+    copepoda/19/19: frame19guide.jpg
+    copepoda/19a/19a: frame19aguide.jpg
+    copepoda/20/20: frame20guide.jpg
+    copepoda/25/25: frame25guide.jpg
+    copepoda/26/26: frame26guide.jpg
+    copepoda/27/27: frame27guide.jpg
+    copepoda/35/35: frame35guide.jpg
+    copepoda/37/37: frame37guide.jpg
+    copepoda/38/38: frame38guide.jpg
+    copepoda/41/41: frame41guide.jpg
+    copepoda/42/42: frame42guide.jpg
+    copepoda/45/45: frame45guide.jpg
+    copepoda/48/48: frame48guide.jpg
+    copepoda/53/53: frame53guide.jpg
+    copepoda/54/54: frame54guide.jpg
+    copepoda/60/60: frame60guide.jpg
+    copepoda/65/65: frame65guide.jpg
+    copepoda/66/66: frame66guide.jpg
+    copepoda/68/68: frame68guide.jpg
+    copepoda/70/70: frame70guide.jpg
+    copepoda/72/72: frame72guide.jpg
+    copepoda/74/74: frame74guide.jpg
+    copepoda/76/76: frame76guide.jpg
+    copepoda/78/78: frame78guide.jpg
+    copepoda/80/80: frame80guide.jpg
+    copepoda/85/85: frame85guide.jpg
+    copepoda/86/86: frame86guide.jpg
+    copepoda/86a/86a: frame86guide.jpg
+    copepoda/86b/86b: frame86guide.jpg
+    copepoda/86c/86c: frame86guide.jpg
+    copepoda/89/89: frame89guide.jpg
+    copepoda/91/91: frame91guide.jpg
+    copepoda/92/92: frame92guide.jpg
+    copepoda/93/93: frame93guideL.jpg
+    copepoda/93/93: frame93guideR.jpg
+    copepoda/96/96: frame96guide.jpg
+    copepoda/98/98: frame98guide.jpg
+    otherarthropods/63/63: frame63guide.jpg
+    rotifera/29/29: frame29guide.jpg
+
+pictures on key steps with no alt text (images of text): 4
+    cladocera/39b/39b: frame39bchoice2.gif
+    cladocera/FChydoridae/86/86: Fchy_frame86choice2.jpg
+    rotifera/94b/94b: trophy.jpg
+    rotifera/94b/94b: uncus.jpg
+
+key choices whose destination page was not found: 2
+    copepoda/105a/105a choice 2: unattached--acanthocyclopsvernalis
+    otherarthropods/51/51 choice 1: unattached--ostracoda
+
+picture-only key choices with only a placeholder label (fill choice_label_new): 7
+    copepoda/5/5 choice 1
+    copepoda/5/5 choice 3
+    entry/rotifers choice 1
+    entry/rotifers choice 2
+    entry/rotifers choice 3
+    entry/rotifers choice 4
+    entry/rotifers choice 5
+
+key choices with no visible text and no alt text (need a label): 2
+    copepoda/5/5 choice 2
+    otherarthropods/51/51 choice 1
+
+picture-only key choices labeled with the species name (check, then fill choice_label_new): 5
+    otherarthropods/51/51 choice 2: *Eubranchipus spp.*
+    otherarthropods/51/51 choice 3: *Hydracarina*
+    otherarthropods/51/51 choice 5: *Argulus spp.*
+    otherarthropods/51/51 choice 6: *Mysis spp.*
+    entry/rotifers choice 8: *Hexarthra mira*
+
+picture-only key choices labeled from the Groups outline (check, then fill choice_label_new): 5
+    otherarthropods/51/51 choice 4: Order Diptera
+    entry/rotifers choice 6: Genus Notholca
+    entry/rotifers choice 7: Genus Filinia
+    entry/rotifers choice 9: Genus Polyarthra
+    entry/rotifers choice 10: Genus Anuraeopsis
+
+group preview pictures with only a generic description (write alt_text_new): 4
+    Cladocera
+    Copepoda
+    Rotifera
+    Other Arthropods
+
+supplementary pages whose title came from the page itself (set 'title' in extra_pages if wrong): 6
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_catawba/DcatawbaNecktooth.html -> Dcatawbanecktooth
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_magna/Dmagna_dvm.html -> Dmagna Dvm
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_carapace_strength.html -> D Midden Carapace Strength
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_distributions.html -> D Midden Distributions
+    html/Organisms/CCladocera/FDaphnidae/GDaphnia/Daphnia_middendorffiana/D_midden_wide_carap.html -> D Midden Wide Carap
+    html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_leptopus/aglaodiaptomusleptopus_images.html -> Reproductive Tract of Female A. leptopus
+
+supplementary pages with nothing to show (skipped): 18
+    html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/aglaodiaptomusspatulocrenatus_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GAglaodiaptomus/aglaodiaptomus_spatulocrenatus/aglaodiaptomusspatulocrenatus_sequence.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_lacustris/epischuralacustris_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_lacustris/epischuralacustris_sequence.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_nordenskioldi/epischuranordenskioldi_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GEpischura/Epischura_nordenskioldi/epischuranordenskioldi_sequence.html
+    html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_minutus/leptodiaptomusminutus_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GLeptodiaptomus/leptodiaptomus_minutus/leptodiaptomusminutus_sequence.html
+    html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/skistodiaptomuspygmeus_numbers.html
+    html/Organisms/CCopepoda/OCalanoida/GSkistodiaptomus/skistodiaptomus_pygmeus/skistodiaptomuspygmeus_sequence.html
+    html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/cyclopsscutifer_numbers.html
+    html/Organisms/CCopepoda/OCyclopoida/GCyclops/cyclops_scutifer/cyclopsscutifer_sequence.html
+    html/Organisms/CCopepoda/OCyclopoida/GDiacyclops/diacyclops_thomasi/diacyclopsthomasi_numbers.html
+    html/Organisms/CCopepoda/OCyclopoida/GDiacyclops/diacyclops_thomasi/diacyclopsthomasi_sequence.html
+    html/Organisms/CCopepoda/OCyclopoida/GMesocyclops/mesocyclops_edax/mesocyclopsedax_numbers.html
+    html/Organisms/CCopepoda/OCyclopoida/GMesocyclops/mesocyclops_edax/mesocyclopsedax_sequence.html
+    html/Organisms/CCopepoda/OCyclopoida/GTropocyclops/tropocyclops_extensus/tropocyclopsextensus_numbers.html
+    html/Organisms/CCopepoda/OCyclopoida/GTropocyclops/tropocyclops_extensus/tropocyclopsextensus_sequence.html
+
+anatomy views using a standard description (write alt_text_new): 63
+    bosmina: Show all labeled parts
+    bosmina: Rostrum
+    bosmina: Sensory Bristle
+    bosmina: 1st antennae
+    bosmina: 2nd Antennae
+    bosmina: Postabdominal Claw
+    bosmina: Mucro
+    bosmina: Clear all labels
+    daphnia: Show all labeled parts
+    daphnia: Rostrum
+    daphnia: 2nd Antennae and Swimming Hairs
+    daphnia: Ventral Spinules
+    daphnia: Postabdomen
+    daphnia: Postabdominal Claws and Pecten
+    daphnia: Posterior Spine
+    daphnia: Abdominal Processes
+    daphnia: Dorsal Spinules
+    daphnia: Ocellus
+    daphnia: Eye
+    daphnia: Clear all labels
+    daphnia: Pecten, Postabdominal claw & 1st-3rd abdominal processes
+    copepod: Show all labels
+    copepod: Eye
+    copepod: First Antenna
+    copepod: Feeding Appendages
+    copepod: Fifth Leg
+    copepod: Lateral view of Fifth Leg
+    copepod: Caudal Ramus
+    copepod: Caudal Setae
+    copepod: Urosome
+    copepod: Prosome
+    copepod: Genital Pore
+    copepod: Clear all labels
+    copepod: Male 5th leg
+    rotiferA: Show all labeled parts
+    rotiferA: Lecane (all)
+    rotiferA: Keratella (all)
+    rotiferA: Euchlanis (all)
+    rotiferA: Anterior
+    rotiferA: Posterior
+    rotiferA: Claws
+    rotiferA: Corona
+    rotiferA: Cusp
+    rotiferA: Foot
+    rotiferA: Plate
+    rotiferA: Spines (Anterior)
+    rotiferA: Spines (Posterior)
+    rotiferA: Toes
+    rotiferA: Clear all labels
+    rotiferB: Show all labeled parts
+    rotiferB: Polyarthra (all)
+    rotiferB: Synchaeta (all)
+    rotiferB: Asplanchna (all)
+    rotiferB: Anterior
+    rotiferB: Posterior
+    rotiferB: Auricle
+    rotiferB: Corona
+    rotiferB: Eyespot
+    rotiferB: Fins
+    rotiferB: Foot
+    rotiferB: Toes
+    rotiferB: Vitellarium
+    rotiferB: Clear all labels
+
+anatomy thumbnails taken from content/assets/anatomy/: 5
+    bosmina: bosminachoice.jpg
+    daphnia: daphniachoice.jpg
+    copepod: Copepodchoice.jpg
+    rotiferA: RotiferAChoice.jpg
+    rotiferB: RotiferBChoice.jpg
+
+Groups entries whose destination does not exist (check goes_to, or convert the page): 3
+    overview: Class Ostracoda
+    arthropoda: Class Ostracoda
+    genera: Class Ostracoda
+
+the Anatomy index page is now generated from the workbook (content/anatomy.md is no longer used): 1
+    anatomy.md

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acoustic Signaling | An Image-Based Key to the Zooplankton of North America</title>
+<meta name="description" content="Acoustic Signaling">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../../../css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="frame">
+<header class="site-header">
+  <div class="header-bar">
+<img class="logo" src="../../../img/site/logo.jpg" alt="" width="153" height="35">    <nav aria-label="Main">
+      <ul>
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../instructions/index.html">Instructions</a></li>
+<li><a href="../../../key/index.html">Use the Key</a></li>
+<li><a href="../../../groups/index.html">Groups</a></li>
+<li><a href="../../index.html" aria-current="page">Species</a></li>
+<li><a href="../../../anatomy/index.html">Anatomy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<article class="extra-page">
+  <h1>Acoustic Signaling</h1>
+<p class="extra-parent">Part of <a href="../index.html"><em>Cyclops scutifer</em></a></p>  <p class="key-tools"><button type="button" id="toggle-arrows" aria-pressed="false">Hide arrows and labels on the pictures</button></p>
+  <section class="text-section">
+<h2>Cyclops scutifer Swimming Towards Daphnia pulex</h2>      <ul><li>Figure 2. <em>Cyclops scutifer</em> (right) swimming towards the <em>Daphnia pulex</em> (left) a possible prey item (5). This Schlieren optical image shows the hydrodynamic disturbances caused by both species. The <em>C. scutifer</em> exhibits the typical hop and sink pattern while the <em>D. pulex</em> causes less disturbance (5). Sensilla distributed on the zooplankters carapaces detect minute disturbances in the water helping to avoid predation, capture prey, and find mates (5). (Modified after Strickler and Bal, 1973.)</li></ul>
+  </section>
+  <div class="extra-gallery">
+    <figure>
+      <img src="../../../img/cyclopsscutifer-figure2/cyclopsscutifer_figure2.jpg" alt="Photograph of Cyclops scutifer, view 11" data-labeled="../../../img/cyclopsscutifer-figure2/cyclopsscutifer_figure2.jpg" data-plain="../../../img/cyclopsscutifer-figure2/cyclopsscutifer_figure2_mouseover.gif">
+    </figure>
+  </div>
+</article>
+<dialog id="figure-dialog" aria-labelledby="fd-caption">
+  <form method="dialog"><button class="close" aria-label="Close picture">Close</button></form>
+  <img id="fd-img" src="" alt="">
+  <p id="fd-caption"></p>
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById("figure-dialog");
+  if (!dlg || !dlg.showModal) return;          // older browsers: the link just opens the picture
+  var img = document.getElementById("fd-img"), cap = document.getElementById("fd-caption");
+  document.querySelectorAll("a[data-figure-alt]").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      img.src = a.href; img.alt = a.dataset.figureAlt; cap.textContent = a.dataset.figureAlt;
+      dlg.showModal();
+    });
+  });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+})();
+</script><script>
+(function () {
+  var btn = document.getElementById("toggle-arrows");
+  var imgs = document.querySelectorAll("img[data-plain]"), on = false;
+  function set(im, plain) { im.src = plain ? im.dataset.plain : im.dataset.labeled; }
+  if (btn) btn.addEventListener("click", function () {
+    on = !on;
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.textContent = on ? "Show arrows and labels on the pictures" : "Hide arrows and labels on the pictures";
+    imgs.forEach(function (im) { set(im, on); });
+  });
+  imgs.forEach(function (im) {
+    im.addEventListener("mouseenter", function () { if (!on) set(im, true); });
+    im.addEventListener("mouseleave", function () { if (!on) set(im, false); });
+  });
+})();
+</script>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="More about the key">
+      <ul class="footer-nav">
+<li><a href="../../../purpose/index.html">Purpose</a></li>
+<li><a href="../../../history/index.html">History of Key</a></li>
+<li><a href="../../../references/index.html">References</a></li>
+<li><a href="../../../video/index.html">Video</a></li>
+<li><a href="../../../barcoding/index.html">Barcoding</a></li>
+<li><a href="../../../copyright/index.html">Copyright</a></li>
+      </ul>
+    </nav>
+    <p>To reference the key: Haney, J.F. et al. &#34;An Image-Based Key to the Zooplankton of North America&#34; version 6.0 released 2026. University of New Hampshire Center for Freshwater Biology &lt;cfb.unh.edu&gt; <span id="accessed"></span></p>
+    <p>Copyright © 2003–2013 Center for Freshwater Biology, Department of Biological Sciences, University of New Hampshire, Durham, NH 03824 USA</p>
+  </div>
+</footer>
+</div>
+<script>
+(function () {
+  var el = document.getElementById("accessed");
+  if (!el) return;
+  var m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], d = new Date();
+  el.textContent = "Accessed " + d.getDate() + " " + m[d.getMonth()] + " " + d.getFullYear() + ".";
+})();
+</script>
+</body>
+</html>

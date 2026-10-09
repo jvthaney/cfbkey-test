@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relative Rate of Light Change | An Image-Based Key to the Zooplankton of North America</title>
+<meta name="description" content="Relative Rate of Light Change">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../../../css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="frame">
+<header class="site-header">
+  <div class="header-bar">
+<img class="logo" src="../../../img/site/logo.jpg" alt="" width="153" height="35">    <nav aria-label="Main">
+      <ul>
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../instructions/index.html">Instructions</a></li>
+<li><a href="../../../key/index.html">Use the Key</a></li>
+<li><a href="../../../groups/index.html">Groups</a></li>
+<li><a href="../../index.html" aria-current="page">Species</a></li>
+<li><a href="../../../anatomy/index.html">Anatomy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<article class="extra-page">
+  <h1>Relative Rate of Light Change</h1>
+<p class="extra-parent">Part of <a href="../index.html"><em>Chaoborus punctipennis</em></a></p>  <section class="text-section">
+<h2>Relative light changes during evening migration</h2>      <ul><li>Relative light changes (unshaded area) during the evening migration of fourth-instar <em>Chaoborus punctipennis</em> larvae. Shaded area indicates <em>Chaoborus</em> population with leading and trailing edges. Barbadoes Pond, NH, 10 April 1984. (Modified from Haney et al., 1990).</li></ul>
+  </section>
+  <section class="text-section">
+<h2>Chaoborus migration</h2>      <ul><li>Figure illustrates that the rate of migration ascent (velocity) is regulated by the percentage change in light (stimulus). This shows the direct correlation between velocity and the light stimulus. Data is based on sonar traces of <em>Chaoborus</em> larvae migrating in New Hampshire lakes. (Modified from Haney et al., 1990).</li></ul>
+  </section>
+  <div class="extra-gallery">
+    <figure>
+      <img src="../../../img/chaoboruspunctipennis-dvm/chaoboruspunctipennis_migration.jpg" alt="Chaoborus punctipennis: migration">
+    </figure>
+    <figure>
+      <img src="../../../img/chaoboruspunctipennis-dvm/chaoboruspunctipennis_relativelight.jpg" alt="Chaoborus punctipennis: relativelight">
+    </figure>
+  </div>
+</article>
+<dialog id="figure-dialog" aria-labelledby="fd-caption">
+  <form method="dialog"><button class="close" aria-label="Close picture">Close</button></form>
+  <img id="fd-img" src="" alt="">
+  <p id="fd-caption"></p>
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById("figure-dialog");
+  if (!dlg || !dlg.showModal) return;          // older browsers: the link just opens the picture
+  var img = document.getElementById("fd-img"), cap = document.getElementById("fd-caption");
+  document.querySelectorAll("a[data-figure-alt]").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      img.src = a.href; img.alt = a.dataset.figureAlt; cap.textContent = a.dataset.figureAlt;
+      dlg.showModal();
+    });
+  });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+})();
+</script></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="More about the key">
+      <ul class="footer-nav">
+<li><a href="../../../purpose/index.html">Purpose</a></li>
+<li><a href="../../../history/index.html">History of Key</a></li>
+<li><a href="../../../references/index.html">References</a></li>
+<li><a href="../../../video/index.html">Video</a></li>
+<li><a href="../../../barcoding/index.html">Barcoding</a></li>
+<li><a href="../../../copyright/index.html">Copyright</a></li>
+      </ul>
+    </nav>
+    <p>To reference the key: Haney, J.F. et al. &#34;An Image-Based Key to the Zooplankton of North America&#34; version 6.0 released 2026. University of New Hampshire Center for Freshwater Biology &lt;cfb.unh.edu&gt; <span id="accessed"></span></p>
+    <p>Copyright © 2003–2013 Center for Freshwater Biology, Department of Biological Sciences, University of New Hampshire, Durham, NH 03824 USA</p>
+  </div>
+</footer>
+</div>
+<script>
+(function () {
+  var el = document.getElementById("accessed");
+  if (!el) return;
+  var m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], d = new Date();
+  el.textContent = "Accessed " + d.getDate() + " " + m[d.getMonth()] + " " + d.getFullYear() + ".";
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copepoda key, step 70 | An Image-Based Key to the Zooplankton of North America</title>
+<meta name="description" content="Copepoda key, step 70. Choose the picture that best matches your specimen.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../../../css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="frame">
+<header class="site-header">
+  <div class="header-bar">
+<img class="logo" src="../../../img/site/logo.jpg" alt="" width="153" height="35">    <nav aria-label="Main">
+      <ul>
+<li><a href="../../../index.html">Home</a></li>
+<li><a href="../../../instructions/index.html">Instructions</a></li>
+<li><a href="../../index.html" aria-current="page">Use the Key</a></li>
+<li><a href="../../../groups/index.html">Groups</a></li>
+<li><a href="../../../species/index.html">Species</a></li>
+<li><a href="../../../anatomy/index.html">Anatomy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<article class="key-step">
+<h1 class="key-prompt">Examining the highlighted area of your specimen, click on the image below which most closely resembles your specimen.</h1>  <figure class="key-guide">
+    <a href="../../../img/key/frame70guide.jpg" data-figure-alt="Diagram of the specimen with the area to examine for this step highlighted"><img src="../../../img/key/frame70guide.jpg" alt="Diagram of the specimen with the area to examine for this step highlighted"></a>
+  </figure>
+  <ol class="choices cols-2">
+    <li class="choice">
+      <p class="choice-num">Choice 1 of 2</p>
+<a class="choice-link" href="../74/index.html"><img src="../../../img/key/frame70choice1a.jpg" alt="" data-decorative data-labeled="../../../img/key/frame70choice1a.jpg" data-plain="../../../img/key/frame70choice1b.jpg">        <span class="choice-text"><span class="choice-line">Length of lateral spine <span class="mk mk-red">(ls)</span> ≥ length of second right exopod <span class="mk mk-blue">(ex)</span></span></span>
+<span class="choice-go">Go to step 74</span></a>    </li>
+    <li class="choice">
+      <p class="choice-num">Choice 2 of 2</p>
+<a class="choice-link" href="../72/index.html"><img src="../../../img/key/frame70choice2a.jpg" alt="" data-decorative data-labeled="../../../img/key/frame70choice2a.jpg" data-plain="../../../img/key/frame70choice2b.jpg">        <span class="choice-text"><span class="choice-line">Length of lateral spine <span class="mk mk-red">(ls)</span> &lt; length of second right exopod <span class="mk mk-blue">(ex)</span></span></span>
+<span class="choice-go">Go to step 72</span></a>    </li>
+  </ol>
+  <p class="key-tools"><button type="button" id="toggle-arrows" aria-pressed="false">Hide arrows and labels on the pictures</button></p>
+  <nav class="key-nav" aria-label="Key navigation">
+<a href="../68/index.html">&larr; Previous step</a><a href="../../index.html">Start over</a>  </nav>
+  <section class="key-extras" aria-labelledby="kt-h">
+    <h2 id="kt-h">Taxonomy</h2>
+    <dl class="taxonomy"><div><dt>Phylum</dt><dd>Arthropoda</dd></div><div><dt>Subphylum</dt><dd>Crustacea</dd></div><div><dt>Class</dt><dd>Maxillopoda</dd></div><div><dt>Subclass</dt><dd>Copepoda</dd></div><div><dt>Order</dt><dd>Calanoida</dd></div><div><dt>Family</dt><dd>Diaptomidae</dd></div></dl>
+  </section>
+</article>
+<dialog id="figure-dialog" aria-labelledby="fd-caption">
+  <form method="dialog"><button class="close" aria-label="Close picture">Close</button></form>
+  <img id="fd-img" src="" alt="">
+  <p id="fd-caption"></p>
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById("figure-dialog");
+  if (!dlg || !dlg.showModal) return;          // older browsers: the link just opens the picture
+  var img = document.getElementById("fd-img"), cap = document.getElementById("fd-caption");
+  document.querySelectorAll("a[data-figure-alt]").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      img.src = a.href; img.alt = a.dataset.figureAlt; cap.textContent = a.dataset.figureAlt;
+      dlg.showModal();
+    });
+  });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+})();
+</script><script>
+(function () {
+  var btn = document.getElementById("toggle-arrows");
+  if (!btn) return;
+  var imgs = document.querySelectorAll("img[data-plain]"), on = false;
+  function set(im, plain) { im.src = plain ? im.dataset.plain : im.dataset.labeled; }
+  btn.addEventListener("click", function () {
+    on = !on;
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.textContent = on ? "Show arrows and labels on the pictures" : "Hide arrows and labels on the pictures";
+    imgs.forEach(function (im) { set(im, on); });
+  });
+  imgs.forEach(function (im) {                     /* pointing at a picture also shows it without arrows, as before */
+    var box = im.closest(".choice-link") || im;
+    box.addEventListener("mouseenter", function () { if (!on) set(im, true); });
+    box.addEventListener("mouseleave", function () { if (!on) set(im, false); });
+  });
+})();
+</script>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="More about the key">
+      <ul class="footer-nav">
+<li><a href="../../../purpose/index.html">Purpose</a></li>
+<li><a href="../../../history/index.html">History of Key</a></li>
+<li><a href="../../../references/index.html">References</a></li>
+<li><a href="../../../video/index.html">Video</a></li>
+<li><a href="../../../barcoding/index.html">Barcoding</a></li>
+<li><a href="../../../copyright/index.html">Copyright</a></li>
+      </ul>
+    </nav>
+    <p>To reference the key: Haney, J.F. et al. &#34;An Image-Based Key to the Zooplankton of North America&#34; version 6.0 released 2026. University of New Hampshire Center for Freshwater Biology &lt;cfb.unh.edu&gt; <span id="accessed"></span></p>
+    <p>Copyright © 2003–2013 Center for Freshwater Biology, Department of Biological Sciences, University of New Hampshire, Durham, NH 03824 USA</p>
+  </div>
+</footer>
+</div>
+<script>
+(function () {
+  var el = document.getElementById("accessed");
+  if (!el) return;
+  var m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], d = new Date();
+  el.textContent = "Accessed " + d.getDate() + " " + m[d.getMonth()] + " " + d.getFullYear() + ".";
+})();
+</script>
+</body>
+</html>

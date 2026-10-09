@@ -1,0 +1,37 @@
+# ============================================================
+# What NOT to put on GitHub. Everything listed here stays on
+# your Mac (and in OneDrive) only.
+# ============================================================
+
+# The copy of the old site: ~700 MB of original files, and the
+# source of the pictures. The build reads it locally; GitHub
+# does not need it.
+cfbkey_local/
+
+# The converted videos. These live on the Internet Archive, and
+# their web addresses are in data/video_manifest.csv.
+cfbkey_mp4/
+
+# Dated backup copies of the workbook (git keeps the history
+# instead).
+*_backup_*.xlsx
+*_backup_*.csv
+
+# Reports about the OLD site. Useful locally, not needed to
+# build or read the new one. Delete these two lines if you want
+# them shared.
+inventory/
+
+# Scratch files
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+/site/
+
+# Leftover working folders and scratch files
+html_test/
+MOV conversion/
+code_bundle.txt
+*.mov
+*.MOV
