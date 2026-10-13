@@ -30,6 +30,9 @@ OPTIONS
                    in the text:  page:slug,
                    old:html/begin.html (an old address), video:<video_id>. A link
                    shows only once its target exists. Images go in content/assets/.
+  --redirects      leave a small forwarding page at each OLD address (html/Organisms/...,
+                   html/choices/..., html/species.html and so on) pointing at the new page,
+                   so links people saved or cited still work. Needs a full build.
   --noindex        add a "do not index" tag to every page and a robots.txt, so a test
                    copy does not turn up in search results alongside the live site
   --init           write the page templates and stylesheet to <out>/../site_src
@@ -69,14 +72,37 @@ except ImportError:
 
 # The current version and its release year. Change these two lines when a new version
 # is released; they appear in the citation line in the footer of every page.
+# ---------------------------------------------------------------------------
+# VISITOR COUNTING. Empty = no tracking at all (the default). To switch one on,
+# paste that service's snippet between the triple quotes. It is added to the end
+# of every page. Two examples, with your own code filled in:
+#
+# GoatCounter (free for non-commercial sites, no cookies):
+#   <script data-goatcounter="https://YOURNAME.goatcounter.com/count"
+#           async src="//gc.zgo.at/count.js"></script>
+#
+# Cloudflare Web Analytics (free, no cookies):
+#   <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+#           data-cf-beacon='{"token": "YOUR-TOKEN"}'></script>
+#
+# Nothing is counted on a build made with --noindex (the review copy), so the
+# numbers only ever describe the real site.
+ANALYTICS_SNIPPET = """<script data-goatcounter="https://cfbkey.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>"""
+# ---------------------------------------------------------------------------
 VERSION = "6.0"
 RELEASE_YEAR = "2026"
 SITE = {
     "title": "An Image-Based Key to the Zooplankton of North America",
     "version": VERSION,
-    "citation": f"To reference the key: Haney, J.F. et al. \"An Image-Based Key to the Zooplankton of "
-                f"North America\" version {VERSION} released {RELEASE_YEAR}. University of New Hampshire "
-                f"Center for Freshwater Biology <cfb.unh.edu>",
+    "cite_label": "To reference the key:",
+    "citation": f"Haney, J.F. et al. \"An Image-Based Key to the Zooplankton of North America\" "
+                f"version {VERSION} released {RELEASE_YEAR}. University of New Hampshire Center for "
+                f"Freshwater Biology",
+    "home_url": "https://cfb.unh.edu",
+    "home_url_text": "cfb.unh.edu",
+    "privacy": "This site counts page views using GoatCounter, a service that uses no cookies and "
+               "stores no personal information about visitors.",
     "copyright": "Copyright \u00a9 2003\u20132013 Center for Freshwater Biology, Department of Biological "
                  "Sciences, University of New Hampshire, Durham, NH 03824 USA",
 }
@@ -125,11 +151,18 @@ TEMPLATES = {
       </ul>
     </nav>
     {% endif %}
-    <p>{{ site.citation }} <span id="accessed"></span></p>
+    <div class="citation">
+      <p><span class="cite-label">{{ site.cite_label }}</span>
+        {{ site.citation }}
+        <span id="accessed"></span></p>
+    </div>
     <p>{{ site.copyright }}</p>
   </div>
 </footer>
+{% if site.privacy %}<p class="privacy-note">{{ site.privacy }}</p>{% endif %}
 </div>
+{% if analytics %}{{ analytics }}
+{% endif %}
 <script>
 (function () {
   var el = document.getElementById("accessed");
@@ -664,6 +697,9 @@ figcaption { max-width:640px; margin-top:.35rem; }
 .footer-nav { list-style:none; display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem 1.5rem; margin:0 0 .75rem; padding:0; }
 .site-footer { text-align:center; background:#ddd; font-size:.9rem; padding:1rem 0; margin-top:0; }
 .site-footer p { margin:.3rem 0; }
+.site-footer .citation { text-align:left; margin:.3rem 0 .6rem; }
+.site-footer .cite-label { text-decoration:underline; }
+.privacy-note { margin:.7rem 1rem .9rem; text-align:center; font-size:.85rem; color:#4a4a46; }
 .prose, .text-section, .ref { overflow-wrap:break-word; }
 img, video { max-width:100%; }
 .prose table { display:block; overflow-x:auto; }
@@ -875,6 +911,31 @@ BANNER_ITEMS = [
 CENTER_BY_DEFAULT = {"index", "contact"}     # pages the old site centered completely
 
 
+STARTER_SETTINGS = """---
+# ============================================================
+# SITE WORDING. Every line below is ordinary text: change the
+# words after the colon and rebuild. Nothing here is code, and
+# a typo in the wording cannot break the site.
+# Keep each setting on ONE line, and keep the --- lines.
+# ============================================================
+
+# The name of the key, shown in the browser tab and used in page titles.
+title: An Image-Based Key to the Zooplankton of North America
+
+# The footer: the label, then the reference itself. To turn words into a link,
+# write them as [the words](https://the-address). *Italics* and **bold** work too.
+cite_label: To reference the key:
+citation: Haney, J.F. et al. "An Image-Based Key to the Zooplankton of North America" version 6.0 released 2026. University of New Hampshire Center for Freshwater Biology
+
+# The copyright line, below the reference.
+copyright: Copyright © 2003–2013 [Center for Freshwater Biology](https://www.cfb.unh.edu/), Department of Biological Sciences, University of New Hampshire, Durham, NH 03824 USA
+
+# The note about visitor counting. Leave it empty to remove the line.
+privacy: This site counts page views using GoatCounter, a service that uses no cookies and stores no personal information about visitors.
+---
+"""
+
+
 def indent_wanted(meta, slug_, style):
     """Text pages indent the first line of each paragraph. "indent: no" turns it off;
     centred pages and reference lists never indent."""
@@ -898,6 +959,8 @@ def parse_front_matter(text):
         end = text.find("\n---", 3)
         if end != -1:
             for line in text[3:end].strip("\n").splitlines():
+                if line.strip().startswith("#") or not line.strip():
+                    continue
                 if ":" in line:
                     k, v = line.split(":", 1)
                     meta[k.strip()] = v.strip()
@@ -1029,6 +1092,9 @@ def main():
     ap.add_argument("--only", default="")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--content", default="")
+    ap.add_argument("--redirects", action="store_true",
+                    help="leave a forwarding page at every old web address, so citations and "
+                         "bookmarks from the old site keep working")
     ap.add_argument("--noindex", action="store_true",
                     help="ask search engines to ignore this copy (use for test and preview sites)")
     ap.add_argument("--init", action="store_true")
@@ -1036,6 +1102,10 @@ def main():
 
     out = Path(a.out).expanduser().resolve()
     old = Path(a.old_site).expanduser().resolve()
+    if not old.is_dir():
+        print(f"Note: {old} is not on this computer. The site will be built from the workbook and\n"
+              f"      the pictures already in {out.name}/. New or changed pictures cannot be added\n"
+              f"      without it; everything else works normally.")
     src = out.parent / "site_src"
 
     if a.init:
@@ -1053,6 +1123,19 @@ def main():
         autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
 
     wb = load_workbook(a.workbook, data_only=True, read_only=True)
+    # the wording everyone sees: the workbook's "settings" sheet wins; content/settings.md
+    # is the fallback for workbooks that do not have the sheet yet
+    SETTING_KEYS = ("title", "cite_label", "citation", "copyright", "privacy")
+    wb_settings = {}
+    for r in sheet_rows(wb, "settings"):
+        k = str(r.get("setting") or "").strip()
+        if k in SETTING_KEYS:
+            wb_settings[k] = "" if r.get("value") is None else str(r["value"]).strip()
+    SITE.update(wb_settings)
+    for dead in ("home_url", "home_url_text"):
+        if any(str(r.get("setting") or "").strip() == dead for r in sheet_rows(wb, "settings")):
+            print(f"  note: the settings sheet still has a '{dead}' row; it is no longer used. "
+                  f"Put links inside the text instead, as [the words](https://the-address).")
     species = sheet_rows(wb, "species")
     sections = sheet_rows(wb, "species_sections")
     images = sheet_rows(wb, "images")
@@ -1089,12 +1172,42 @@ def main():
     if not (content_dir / "index.md").exists():
         (content_dir / "index.md").write_text(STARTER_INDEX, encoding="utf-8")
         print(f"(Wrote a starter home page to {content_dir / 'index.md'}: edit it freely.)")
+    settings_file = content_dir / "settings.md"
+    if wb_settings:
+        report["site wording read from the workbook's 'settings' sheet"].append(
+            f"{len(wb_settings)} setting(s)" + ("; content/settings.md is no longer used"
+                                                if settings_file.exists() else ""))
+    else:
+        if not settings_file.exists():
+            settings_file.write_text(STARTER_SETTINGS, encoding="utf-8")
+            print(f"(Wrote the site wording to {settings_file}: edit it freely.)")
+        s_meta, _ = parse_front_matter(settings_file.read_text(encoding="utf-8"))
+        for k, v in s_meta.items():
+            if k in SETTING_KEYS:
+                SITE[k] = v
     if not (content_dir / "video.md").exists():
         (content_dir / "video.md").write_text(STARTER_VIDEO, encoding="utf-8")
     content = load_content(content_dir)
     registry = {"species": "species/index.html"}
-    for slug_ in content:
-        registry[slug_] = "index.html" if slug_ == "index" else f"{slug_}/index.html"
+    content.pop("settings", None)                      # wording, not a page
+
+    def page_folder(pg_):
+        """Where a text page sits. 'folder: key/id' in the page's header puts it there;
+        pages converted from the old idpages folder go under key/id by default, since they
+        are the end points the key leads to."""
+        f_ = str(pg_["meta"].get("folder", "")).strip().strip("/")
+        if f_:
+            return f_
+        if str(pg_["meta"].get("old", "")).lower().startswith("html/idpages/"):
+            return "key/id"
+        return ""
+
+    for slug_, pg_ in content.items():
+        if slug_ == "index":
+            registry[slug_] = "index.html"
+            continue
+        f_ = page_folder(pg_)
+        registry[slug_] = f"{f_}/{slug_}/index.html" if f_ else f"{slug_}/index.html"
 
     def nav_items(kind):
         items = []
@@ -1122,7 +1235,23 @@ def main():
                              "href": posixpath.relpath(registry[i["slug"]], page_dir or ".")}
                             for i in items if i["slug"] in registry]
         has_logo = (out / "img" / "site" / "logo.jpg").exists()
-        return {"site": SITE, "root": "../" * depth, "noindex": a.noindex, "nav": mk(nav_items("main")),
+
+        def setting_link(target):
+            """A link inside a setting: a web address, mailto:, or page:slug for a page here."""
+            if re.match(r"^(https?:|mailto:)", target, re.I):
+                return target
+            kind, _, ref = target.partition(":")
+            if kind == "page" and ref in registry:
+                return posixpath.relpath(registry[ref], page_dir or ".")
+            report["links in the settings that could not be resolved"].append(target)
+            return None
+
+        site_rendered = dict(SITE)
+        for k in ("cite_label", "citation", "copyright", "privacy"):
+            if SITE.get(k):
+                site_rendered[k] = render_text(SITE[k], setting_link)
+        return {"site": site_rendered, "root": "../" * depth, "noindex": a.noindex,
+                "analytics": Markup(ANALYTICS_SNIPPET.strip()) if (ANALYTICS_SNIPPET.strip() and not a.noindex) else "", "nav": mk(nav_items("main")),
                 "footer_nav": mk(nav_items("footer")), "current": current,
                 "logo": posixpath.relpath("img/site/logo.jpg", page_dir or ".") if has_logo else ""}
 
@@ -1298,7 +1427,8 @@ def main():
         return re.sub(r'<a ([^>]*?)href="(page|old|video):([^"]*)"([^>]*)>(.*?)</a>',
                       lambda m: sub2(m), text, flags=re.S)
 
-    for d in ("species", "img", "key", "groups", "anatomy", "pages"):
+    full_build = not (a.only or a.limit)
+    for d in ("species", "key", "groups", "anatomy", "pages"):
         shutil.rmtree(out / d, ignore_errors=True)
     (out / "css").mkdir(parents=True, exist_ok=True)
     css_src = src / "static" / "css" / "site.css"
@@ -1345,10 +1475,15 @@ def main():
         while dest_rel in copied.values():
             n += 1
             dest_rel = f"img/{owner}/{n}-{name}"
-        srcf = old / old_rel
+        srcf, dest = old / old_rel, out / dest_rel
         if srcf.exists():
-            (out / dest_rel).parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(srcf, out / dest_rel)
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(srcf, dest)
+        elif dest.exists():
+            # the old-site copy is not on this computer, but the picture is already in the
+            # site from an earlier build: keep it, so text-only changes can still be made
+            report["pictures reused from the last build (the old-site copy was not available)"].append(
+                f"{owner}: {posixpath.basename(old_rel)}")
         else:
             report["missing image file"].append(f"{owner}: {old_rel}")
         copied[key] = dest_rel
@@ -1480,7 +1615,7 @@ def main():
         groups=glist, n_species=len(all_species)), encoding="utf-8")
 
     for sl, pg in content.items():
-        page_dir = "" if sl == "index" else sl
+        page_dir = posixpath.dirname(registry[sl])
         body_html = md_lib.markdown(pg["body"], extensions=["extra", "sane_lists", "attr_list", "toc"])
         body_html = fix_page_links(body_html, page_dir, f"{pg['file']}")
         style = str(pg["meta"].get("style", "")).lower()
@@ -2004,10 +2139,88 @@ def main():
         (out / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")      # GitHub Pages: serve the files as they are
 
+    if full_build and (out / "img").is_dir():
+        kept = {(out / v).resolve() for v in copied.values()}
+        kept |= {p for p in (out / "img" / "site").glob("*")}          # logo and group pictures
+        kept |= {p for p in (out / "img" / "anatomy").glob("thumb-*")}  # your own thumbnails
+        stale = [p for p in (out / "img").rglob("*") if p.is_file() and p.resolve() not in kept]
+        for p_ in stale:
+            p_.unlink()
+        for d_ in sorted((p for p in (out / "img").rglob("*") if p.is_dir()), reverse=True):
+            if not any(d_.iterdir()):
+                d_.rmdir()
+        if stale:
+            report["pictures removed from the site because nothing refers to them any more"].append(
+                f"{len(stale)} file(s)")
+
+    # ---- forwarding pages at the old web addresses ----
+    n_redirects = 0
+    if a.redirects and full_build:
+        moved = {}
+
+        def moved_to(old_path, new_path):
+            if old_path and new_path:
+                moved[old_path] = new_path
+
+        for s_ in all_species:                                   # species pages
+            if s_["species_id"] in built_ids:
+                moved_to(str(s_["old_path"]), f"species/{s_['species_id']}/index.html")
+        for r in extra_rows:                                     # supplementary pages
+            op = str(r["old_path"])
+            if op in extra_path and (out / extra_path[op]).exists():
+                moved_to(op, extra_path[op])
+        for sk in steps:                                         # key steps
+            info = key_info.get(sk, {})
+            moved_to(str(info.get("old_path") or ""), step_path(sk))
+        for g in by_group:                                       # Groups pages
+            moved_to(f"html/groups{'' if g == 'overview' else '_' + g}.html", groups_path(g))
+        for g in by_ana:                                         # anatomy diagrams
+            gdir_old = old / "html" / "anatomy" / g
+            for f_ in (sorted(gdir_old.glob("*.htm")) + sorted(gdir_old.glob("*.html"))
+                       if gdir_old.is_dir() else []):
+                moved_to(f_.relative_to(old).as_posix(), ana_path(g))
+        for old_ref, sl in old_to_slug.items():                  # text pages, species list, video
+            if sl in registry:
+                moved_to(old_ref, registry[sl])
+        moved_to("html/anatomy.html", registry.get("anatomy", ""))
+        moved_to("html/begin.html", registry.get("key", ""))
+        moved_to("html/index.html", "index.html")
+        moved_to("Start.html", "index.html")
+
+        seen_lower = {}
+        for old_path in sorted(moved):
+            low = old_path.lower()
+            if low in seen_lower:
+                report["old addresses that differ only in capitalisation (only one can be kept)"].append(
+                    f"{seen_lower[low]} / {old_path}")
+                continue
+            seen_lower[low] = old_path
+            dest = out / old_path
+            if dest.exists():
+                report["old addresses skipped: a real page already uses that address"].append(old_path)
+                continue
+            target = posixpath.relpath(moved[old_path], posixpath.dirname(old_path) or ".")
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_text(
+                "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
+                f"<title>This page has moved | {html.escape(SITE['title'])}</title>\n"
+                f"<link rel=\"canonical\" href=\"{html.escape(target, quote=True)}\">\n"
+                f"<meta http-equiv=\"refresh\" content=\"0; url={html.escape(target, quote=True)}\">\n"
+                + ('<meta name="robots" content="noindex">\n' if a.noindex else "")
+                + "<style>body{font:1rem/1.6 Arial,Helvetica,sans-serif;margin:3rem auto;max-width:34rem;"
+                  "padding:0 1rem;text-align:center}</style>\n</head>\n<body>\n"
+                  "<h1>This page has moved</h1>\n"
+                  f"<p>You should arrive at the new page in a moment. If not, "
+                  f"<a href=\"{html.escape(target, quote=True)}\">continue to the page</a>.</p>\n"
+                  "</body>\n</html>\n", encoding="utf-8")
+            n_redirects += 1
+        report["forwarding pages written at old addresses"].append(f"{n_redirects} page(s)")
+
     n_pages, problems = check_site(out)
     if tax_pref:
         report["taxonomy spellings replaced from the taxonomy sheet"].append(f"{len(tax_pref)} rule(s) in use")
-    lines = [f"Built {len(species)} species page(s) of {len(all_species)}, {n_key_pages} key step page(s), {n_group_pages} Groups page(s), {n_ana_pages} anatomy page(s), {n_extra_built} supplementary page(s) and {len(content)} content page(s); "
+    lines = [f"Built {len(species)} species page(s) of {len(all_species)}, {n_key_pages} key step page(s), {n_group_pages} Groups page(s), {n_ana_pages} anatomy page(s), {n_extra_built} supplementary page(s), {len(content)} content page(s) "
+             f"and {n_redirects} forwarding page(s); "
              f"{n_pages} HTML pages in {out}",
              f"Supplementary pages in the workbook: {n_extra}", ""]
     for k, v in report.items():

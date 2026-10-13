@@ -11,6 +11,10 @@
 # Anything typed after the script name (--limit, --only, --content ...) is passed
 # on to build_site.py.
 #
+# --redirects leaves a small forwarding page at every OLD web address (the
+# html/Organisms/... and html/choices/... paths), so citations and bookmarks from the
+# old site still work. Keep it on.
+#
 # While this is a TEST copy, the build adds a "do not index" tag so it does not turn
 # up in search results beside the live UNH site. Remove --noindex from the last line
 # when this site is meant to replace the old one.
@@ -39,4 +43,5 @@ fi
   --old-site "$ZK/cfbkey_local" \
   --content "$ZK/content" \
   --out "$ZK/docs" \
+  --redirects \
   --noindex "$@" && open "$ZK/docs/index.html"

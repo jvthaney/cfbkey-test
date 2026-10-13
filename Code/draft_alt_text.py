@@ -12,7 +12,7 @@ WHAT IT DOES
         alt_text_draft   the suggested wording
         draft_basis      how it was made (so you can review the weakest first)
   * Never touches 'alt_text_new' (the column for reviewed text), so your edits are safe.
-  * Makes a dated backup copy of the workbook first.
+  * Makes a dated backup copy first, in a workbook_backups folder beside the workbook.
   * Leaves existing drafts alone unless you add --force.
   * Adds two progress lines to the README sheet.
 
@@ -58,6 +58,20 @@ STATES = {"male", "female", "juvenile", "adult", "ephippial", "gravid", "mating"
 SKIP = {"small", "large", "lg", "org", "orig", "roll", "copy", "thumb", "img", "image", "pic", "photo",
         "fig", "figure", "hq", "crop", "cr", "edit", "final", "new", "old", "png", "jpg"}
 TOKEN_RE = re.compile(r"\d+x\d+|\d+(?:st|nd|rd|th)(?![a-z])|[A-Za-z]+|\d+")
+
+
+def make_backup(wbp: Path) -> Path:
+    """Copy the workbook into a dated file inside workbook_backups/, beside the workbook."""
+    folder = wbp.parent / "workbook_backups"
+    folder.mkdir(parents=True, exist_ok=True)
+    stamp = f"{datetime.datetime.now():%Y%m%d-%H%M%S}"
+    dest = folder / f"{wbp.stem}_backup_{stamp}{wbp.suffix}"
+    n = 2
+    while dest.exists():                       # two runs in the same second
+        dest = folder / f"{wbp.stem}_backup_{stamp}-{n}{wbp.suffix}"
+        n += 1
+    shutil.copy2(wbp, dest)
+    return dest
 
 
 def plain(md: str) -> str:
@@ -119,10 +133,8 @@ def main():
     wbp = Path(a.workbook).expanduser()
     if not wbp.exists():
         sys.exit(f"ERROR: workbook not found: {wbp}")
-    stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-    backup = wbp.with_name(f"{wbp.stem}_backup_{stamp}{wbp.suffix}")
-    shutil.copy2(wbp, backup)
-    print(f"Backup saved: {backup.name}")
+    backup = make_backup(wbp)
+    print(f"Backup saved: {backup.parent.name}/{backup.name}")
 
     wb = load_workbook(wbp)
     for need in ("species", "species_sections", "images", "figures"):

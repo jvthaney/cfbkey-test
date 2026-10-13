@@ -100,6 +100,9 @@ figcaption { max-width:640px; margin-top:.35rem; }
 .footer-nav { list-style:none; display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem 1.5rem; margin:0 0 .75rem; padding:0; }
 .site-footer { text-align:center; background:#ddd; font-size:.9rem; padding:1rem 0; margin-top:0; }
 .site-footer p { margin:.3rem 0; }
+.site-footer .citation { text-align:left; margin:.3rem 0 .6rem; }
+.site-footer .cite-label { text-decoration:underline; }
+.privacy-note { margin:.7rem 1rem .9rem; text-align:center; font-size:.85rem; color:#4a4a46; }
 .prose, .text-section, .ref { overflow-wrap:break-word; }
 img, video { max-width:100%; }
 .prose table { display:block; overflow-x:auto; }

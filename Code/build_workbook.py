@@ -14,6 +14,7 @@ unless --out points at the same name).
 
 SHEETS
   README          how to use the workbook + a live progress tracker
+  settings        the wording shown on every page (site title, footer, citation)
   species         one row per species (taxonomy, ids, counts)
   species_sections  the text of each species page, one row per bullet/paragraph
   image_maps      pictures with clickable regions, one row per region
@@ -73,6 +74,23 @@ VIDEO_TYPES = {
     "sampling methods": "Sampling method",
     "dissection demonstration": "Dissection demonstration",
 }
+
+
+SETTINGS_ROWS = [
+    ("title", "An Image-Based Key to the Zooplankton of North America",
+     "The name of the key: the browser tab and page titles."),
+    ("cite_label", "To reference the key:", "Footer: the underlined label before the reference."),
+    ("citation", 'Haney, J.F. et al. "An Image-Based Key to the Zooplankton of North America" '
+                 "version 6.0 released 2026. University of New Hampshire Center for Freshwater Biology",
+     "Footer: the reference itself. Update the version and year here when a new version is released."),
+    ("copyright", "Copyright \u00a9 2003\u20132013 [Center for Freshwater Biology](https://www.cfb.unh.edu/), "
+                  "Department of Biological Sciences, University of New Hampshire, Durham, NH 03824 USA",
+     "Footer: the copyright line. To turn words into a link, write them as "
+     "[the words](https://the-address). *Italics* and **bold** work too."),
+    ("privacy", "This site counts page views using GoatCounter, a service that uses no cookies and "
+                "stores no personal information about visitors.",
+     "The note below the grey footer box. Leave the value empty to remove the line."),
+]
 
 
 def read(inv: Path, name: str):
@@ -374,6 +392,12 @@ def main():
              [{"step_key": step_key(r["step_path"]), "image": r["image"], "alt_on_old_site": r["alt"], "alt_text_new": ""}
               for r in step_imgs if r["step_path"] in live_step_paths],
              widths={"step_key": 32, "image": 60, "alt_text_new": 50}, inputs=("alt_text_new",))
+
+    # ---------------- site wording ----------------
+    bk.sheet("settings", ["setting", "value", "notes"],
+             [{"setting": k, "value": v, "notes": n} for k, v, n in SETTINGS_ROWS],
+             widths={"setting": 18, "value": 90, "notes": 60}, inputs=("value",),
+             wrap=("value", "notes"))
 
     # ---------------- anatomy diagrams ----------------
     ana_rows = [{"group": a["group"], "seq": a["seq"], "label": a["label"], "label_new": "",

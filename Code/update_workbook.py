@@ -16,11 +16,11 @@ WHAT IT DOES
      arrows in the pictures, such as (p), (m), (d), keep their colors. A cell is only
      changed if it still holds the original, unedited text. Cells someone has edited
      are left alone and counted.
-  3. Adds the 'image_maps' sheet, the new 'hover_image' and 'on_extra_page' columns,
+  3. Adds the 'settings' sheet (the wording shown on every page), the 'image_maps' sheet, the new 'hover_image' and 'on_extra_page' columns,
      the 'anatomy' sheet (the diagram labels) and the 'groups' sheet (the Groups outline) if it is not there.
   4. Adds to the 'taxonomy' sheet any rank value that occurs only on key pages (so a
      typo there can be corrected with 'preferred_spelling' like any other).
-  5. Makes a dated backup copy of the workbook first.
+  5. Makes a dated backup copy first, in a workbook_backups folder beside the workbook.
 It is safe to run more than once.
 """
 
@@ -42,6 +42,37 @@ except ImportError:
     sys.exit("Needs openpyxl:  conda install -c conda-forge openpyxl")
 
 MARK = re.compile(r"\{(?:red|blue|green|orange)\|([^}]*)\}")
+
+
+SETTINGS_ROWS = [
+    ("title", "An Image-Based Key to the Zooplankton of North America",
+     "The name of the key: the browser tab and page titles."),
+    ("cite_label", "To reference the key:", "Footer: the underlined label before the reference."),
+    ("citation", 'Haney, J.F. et al. "An Image-Based Key to the Zooplankton of North America" '
+                 "version 6.0 released 2026. University of New Hampshire Center for Freshwater Biology",
+     "Footer: the reference itself. Update the version and year here when a new version is released."),
+    ("copyright", "Copyright \u00a9 2003\u20132013 [Center for Freshwater Biology](https://www.cfb.unh.edu/), "
+                  "Department of Biological Sciences, University of New Hampshire, Durham, NH 03824 USA",
+     "Footer: the copyright line. To turn words into a link, write them as "
+     "[the words](https://the-address). *Italics* and **bold** work too."),
+    ("privacy", "This site counts page views using GoatCounter, a service that uses no cookies and "
+                "stores no personal information about visitors.",
+     "The note below the grey footer box. Leave the value empty to remove the line."),
+]
+
+
+def make_backup(wbp: Path) -> Path:
+    """Copy the workbook into a dated file inside workbook_backups/, beside the workbook."""
+    folder = wbp.parent / "workbook_backups"
+    folder.mkdir(parents=True, exist_ok=True)
+    stamp = f"{datetime.datetime.now():%Y%m%d-%H%M%S}"
+    dest = folder / f"{wbp.stem}_backup_{stamp}{wbp.suffix}"
+    n = 2
+    while dest.exists():                       # two runs in the same second
+        dest = folder / f"{wbp.stem}_backup_{stamp}-{n}{wbp.suffix}"
+        n += 1
+    shutil.copy2(wbp, dest)
+    return dest
 
 
 def same_text(new: str, old: str) -> bool:
@@ -78,9 +109,8 @@ def main():
     inv = Path(a.inventory).expanduser()
     if not wbp.exists():
         sys.exit(f"ERROR: workbook not found: {wbp}")
-    backup = wbp.with_name(f"{wbp.stem}_backup_{datetime.datetime.now():%Y%m%d-%H%M%S}{wbp.suffix}")
-    shutil.copy2(wbp, backup)
-    print(f"Backup saved: {backup.name}")
+    backup = make_backup(wbp)
+    print(f"Backup saved: {backup.parent.name}/{backup.name}")
 
     steps = [r for r in read_csv(inv, "key_steps.csv") if str(r.get("live", "True")).lower() == "true"]
     wb = load_workbook(wbp)
@@ -319,6 +349,42 @@ def main():
                     c.fill = PatternFill("solid", fgColor="FFF2CC")
         ws_.freeze_panes = "A2"
         print(f"image_maps: added with {ws_.max_row - 1} region(s)")
+
+    # ---- 2e. the site wording, seeded from content/settings.md if it exists ----
+    if "settings" in wb.sheetnames:
+        print("settings: already present, left as it is")
+    else:
+        existing = {}
+        for folder in (wbp.parent, wbp.parent.parent):
+            f = folder / "content" / "settings.md"
+            if f.exists():
+                txt = f.read_text(encoding="utf-8")
+                for line in txt.splitlines():
+                    line = line.strip()
+                    if line.startswith("#") or line.startswith("---") or ":" not in line:
+                        continue
+                    k, v = line.split(":", 1)
+                    existing[k.strip()] = v.strip()
+                break
+        ws = wb.create_sheet("settings")
+        ws.append(["setting", "value", "notes"])
+        for k, v, n in SETTINGS_ROWS:
+            ws.append([k, existing.get(k, v), n])
+        for i, (h, w) in enumerate((("setting", 18), ("value", 90), ("notes", 60)), 1):
+            c = ws.cell(row=1, column=i)
+            is_in = h == "value"
+            c.font = Font(name="Arial", bold=True, size=10, color="000000" if is_in else "FFFFFF")
+            c.fill = PatternFill("solid", fgColor="FFD966" if is_in else "1F3864")
+            ws.column_dimensions[get_column_letter(i)].width = w
+        for row in ws.iter_rows(min_row=2):
+            for c in row:
+                c.font = Font(name="Arial", size=10)
+                c.alignment = Alignment(vertical="top", wrap_text=c.column > 1)
+                if c.column == 2:
+                    c.fill = PatternFill("solid", fgColor="FFF2CC")
+        ws.freeze_panes = "A2"
+        print(f"settings: added with {ws.max_row - 1} rows"
+              + (" (values taken from content/settings.md)" if existing else ""))
 
     # ---- 3. taxonomy values that appear only on key steps ----
     RANKS = ["Phylum", "Subphylum", "Class", "Subclass", "Order", "Suborder", "Family"]

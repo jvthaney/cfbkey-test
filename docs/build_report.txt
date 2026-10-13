@@ -1,6 +1,8 @@
-Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s) and 26 content page(s); 520 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
+Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s), 26 content page(s) and 0 forwarding page(s); 992 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
 Supplementary pages in the workbook: 43
 
+site wording read from the workbook's 'settings' sheet: 1
+    5 setting(s); content/settings.md is no longer used
 clips left off the Video page (not on the old index; write a description_new to list one): 11
     html/Organisms/PRotifera/rotifer1
     media/5thlegdissection/5thlegdissection
@@ -133,13 +135,31 @@ Groups entries whose destination does not exist (check goes_to, or convert the p
     genera: Class Ostracoda
 the Anatomy index page is now generated from the workbook (content/anatomy.md is no longer used): 1
     anatomy.md
+old addresses skipped: a real page already uses that address: 521
+    Start.html
+    html/Organisms/CCladocera/FBosminidae/GBosmina/Bosmina_longirostris/bosminalongirostris.html
+    html/Organisms/CCladocera/FBosminidae/GBosmina/Bosmina_longirostris/bosminalongirostris_figure1.html
+    html/Organisms/CCladocera/FBosminidae/GBosminopsis/Bosminopsis_deitersi/bosminopsisdeitersi.html
+    html/Organisms/CCladocera/FBosminidae/GEubosmina/Eubosmina_coregoni/eubosminacoregoni.html
+    ... and 516 more
+old addresses that differ only in capitalisation (only one can be kept): 2
+    html/Organisms/PRotifera/copepoddissection.html / html/organisms/protifera/copepoddissection.html
+    Start.html / start.html
+forwarding pages written at old addresses: 1
+    0 page(s)
 
-Page checks: 9 problem(s)
+Page checks: 15 problem(s)
     ccopepodafemale/index.html: 1 image(s) with empty alt
     ccopepodamolt/index.html: 1 image(s) with empty alt
     chydoridae/index.html: 2 image(s) with empty alt
     copepoddissection/index.html: 3 image(s) with empty alt
     instructions/index.html: 2 image(s) with empty alt
+    key/id/ccopepodafemale/index.html: 1 image(s) with empty alt
+    key/id/ccopepodamolt/index.html: 1 image(s) with empty alt
+    key/id/chydoridae/index.html: 2 image(s) with empty alt
+    key/id/macrothricidae/index.html: 7 image(s) with empty alt
+    key/id/naupliuscalanoid/index.html: 4 image(s) with empty alt
+    key/id/naupliuscyclopoid/index.html: 7 image(s) with empty alt
     macrothricidae/index.html: 7 image(s) with empty alt
     naupliuscalanoid/index.html: 4 image(s) with empty alt
     naupliuscyclopoid/index.html: 7 image(s) with empty alt

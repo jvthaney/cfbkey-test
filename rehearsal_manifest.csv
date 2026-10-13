@@ -1,0 +1,4 @@
+video_id,local_path,remote_path,url,size_bytes,duration_s,has_audio,md5,status
+html/Organisms/PRotifera/rotifer1,html/Organisms/PRotifera/rotifer1.mp4,html/Organisms/PRotifera/rotifer1.mp4,https://archive.org/download/cfbkey-test-003/html/Organisms/PRotifera/rotifer1.mp4,1212960,9.98,False,46e32141ac2da157e4473cd1a5695f2c,uploaded
+media/5thlegdissection/5thlegdissection,media/5thlegdissection/5thlegdissection.mp4,media/5thlegdissection/5thlegdissection.mp4,https://archive.org/download/cfbkey-test-003/media/5thlegdissection/5thlegdissection.mp4,384749,14.6,False,8834b92623d1d6c2d500ba5ab9549bb1,uploaded
+media/Trichocerca_cylindrica1/Trichocerca_cylindrica1,media/Trichocerca_cylindrica1/Trichocerca_cylindrica1.mp4,media/Trichocerca_cylindrica1/Trichocerca_cylindrica1.mp4,https://archive.org/download/cfbkey-test-003/media/Trichocerca_cylindrica1/Trichocerca_cylindrica1.mp4,1497698,15.18,False,9daf94233e0d14f507a27bc28eceb2ee,uploaded
