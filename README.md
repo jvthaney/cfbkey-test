@@ -81,7 +81,7 @@ a typo there is a spreadsheet edit like any other. Links can be written inside t
 
 ## Who to ask
 
-- **Dr. James F. Haney** (`jfhaney@unh.edu`) is the key's original author and principal
+- **James F. Haney** (`jfhaney@unh.edu`) is the key's original author and principal
   investigator; questions about content, taxonomy and permissions go to him.
 - **Amanda McQuaid** holds the project files and the OneDrive folder.
 - **Jess Trout-Haney** did the 2026 rebuild and runs the build scripts.
