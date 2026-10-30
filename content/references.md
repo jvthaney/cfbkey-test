@@ -16,11 +16,11 @@ Retrieved from March 1 through September 30, 2004, from the **Integrated Taxonom
 Balcer, M.D., N.L. Korda, and S.I. Dodson. 1984. **Zooplankton of the Great Lakes: A Guide to the Identification and Ecology of the Common Crustacean Species**. University of Wisconsin Press. 174p.
 
 Lesko, L.T., P.L. Hudson, and M.A. Chriscinske. 2003. **Calanoid copepods of the Laurentian Great Lakes**. Ann Arbor, MI: Great Lakes Science Center Home Page.  
-[http://www.glsc.usgs.gov/greatlakescopepods/Key.asp?GROUP=Calanoid](http://www.glsc.usgs.gov/greatlakescopepods/Key.asp?GROUP=Calanoid)  
+[https://www.glsc.usgs.gov/greatlakescopepods/MainMenu.php](https://www.glsc.usgs.gov/greatlakescopepods/MainMenu.php)  
 Pennak, R.W. 1989. **Fresh-Water Invertebrates of the United States**. 3rd Ed. John Wiley & Sons, Inc. New York.
 
 Sandercook, G.A. and G.G.E. Scudder. 1996. **Key to the Species of Freshwater Calanoid Copepods of British Columbia.** British Columbia: Resources Inventory Committee Publications.  
-[http://www.ilmb.gov.bc.ca/risc/pubs/aquatic/calanoid/key.htm](http://www.ilmb.gov.bc.ca/risc/pubs/aquatic/calanoid/key.htm)  
+[Key to the Species of Freshwater Calanoid Copepods of British Columbia (Scribd)](https://www.scribd.com/document/517576368/5-Key-to-Freshwater-Calanoid-Copepods-of-Bc)  
 Reid, J.W., and C.E. Williamson. 2010. *Copepoda*. In: Thorp, J.H. & A.P. Covich (Eds.). **Ecology and Classification of North American Freshwater Invertebrates**. 3rd Edition. Chapter 21. Academic Press, New York: 829-899.
 
 *Cladoceran taxonomy*
@@ -31,7 +31,7 @@ Brandlova, J., Z. Brandl and C.H. Fernando. 1972.*The Cladocera of Ontario with 
 Brooks, J.L. 1957. **The systematics of North American Daphnia**. The Academy. New Haven, CT.  
 Edmondson, W. T. ed. 1959. **Fresh-water Biology**. John Wiley & Sons, Inc. New York.  
 Green, G. D. **A Key To Cladocerans (Crustacea) Of British Columbia: Families Daphniidae, Sididae, Bosminidae, Holopediidae, Leptodoridae and Polyphemidae**. May 1997.  
-[http://www.ilmb.gov.bc.ca/risc/pubs/aquatic/crustacea/clad-key.htm](http://www.ilmb.gov.bc.ca/risc/pubs/aquatic/crustacea/clad-key.htm).  
+[A Key to Cladocerans of British Columbia (PDF)](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/nr-laws-policy/risc/a_key_to_cladocerans_crustacea_of_bc_families_daphniidae_sididae_bosminidae_holopediidae_leptodoridae_and_polyphemidae_draft.pdf).  
 Hebert, P.D. 1995. **The Daphnia of North America: an Illustrated Fauna**. CD-ROM version 1.  
 Pennak, R.W. 1989. **Fresh-Water Invertebrates of the United States**. 3rd Ed. John Wiley & Sons, Inc. New York.  
 SMIRNOV, N.N. 1992. **The Macrothricidae of the world.** Guides to the identification of the microinvertebrates of the continental waters of the world. SPB Academic Publishing, The Hague: 143pp.  
@@ -43,7 +43,7 @@ Balcer, M.D., N.L. Korda, and S.I. Dodson. 1984. **Zooplankton of the Great Lake
 
 Dussart, B.H. and C.H. Fernando. 1990. *A review of the taxonomy of five Ontario genera of freshwater cyclopoid Copepoda (Crustacea)*. **Canadian Journal of Zoology**. 68: 2594-2604.  
 Hudson, P. L., J. W. Reid, L. T. Lesko, and J. H. Selgeby. 1998. **Cyclopoid and Harpacticoid Copepods of the Laurentian Great Lakes**. Bulletin of the Ohio Biological Survey New Series. 50p.  
-Hudson, P. L., L.T. Lesko, J. W. Reid, and M. A. Chriscinske. 2003. **Cyclopoid copepods of the Laurentian Great Lakes**. Ann Arbor, MI: Great Lakes Science Center Home Page. [http://www.glsc.usgs.gov/greatlakescopepods/Key.asp?GROUP=Cyclopoid](http://www.glsc.usgs.gov/greatlakescopepods/key.asp?GROUP=Cyclopoid)
+Hudson, P. L., L.T. Lesko, J. W. Reid, and M. A. Chriscinske. 2003. **Cyclopoid copepods of the Laurentian Great Lakes**. Ann Arbor, MI: Great Lakes Science Center Home Page. [https://pubs.usgs.gov/publication/1000626](https://pubs.usgs.gov/publication/1000626)
 
 Smith, K. E., and C. H. Fernando. 1978. **A Guide to the Freshwater Calanoid and Cyclopoid Copepod Crustacea of Ontario.** University of Waterloo Biological Series No. 18.
 

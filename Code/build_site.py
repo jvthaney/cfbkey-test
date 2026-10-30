@@ -676,7 +676,7 @@ figcaption { max-width:640px; margin-top:.35rem; }
 .banner-strip { position:relative; display:grid; grid-template-columns:repeat(4, 1fr); gap:.35rem;
   border:3px solid var(--ink); background:#fff; padding:.35rem; }
 .banner-strip img { display:block; width:100%; height:auto; }
-.banner-overlay { position:absolute; left:12.5%; right:12.5%; top:50%; transform:translateY(-50%);
+.banner-overlay { position:absolute; left:27%; right:27%; bottom:0;
   background:rgba(0,0,0,.52); color:#fff; text-align:center; padding:.6rem .5rem;
   font:700 1.9rem/1.1 var(--display); letter-spacing:.02em; text-decoration:none; }
 .banner-link:hover .banner-overlay, .banner-link:focus-visible .banner-overlay { background:rgba(0,0,0,.68); }
@@ -1020,6 +1020,9 @@ def render_text(text, resolver):
         if not res:
             return label
         href, attrs = res if isinstance(res, tuple) else (res, "")
+        if re.match(r"^https?:", href, re.I):          # another website: open in a new tab
+            attrs += ' target="_blank" rel="noopener"'
+            label += '<span class="sr-only"> (opens in a new tab)</span>'
         return f'<a href="{html.escape(href, quote=True)}"{attrs}>{label}</a>'
 
     s = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", link, s)
@@ -1208,6 +1211,12 @@ def main():
             continue
         f_ = page_folder(pg_)
         registry[slug_] = f"{f_}/{slug_}/index.html" if f_ else f"{slug_}/index.html"
+        if f_ and (out / slug_ / "index.html").exists():
+            # the page used to sit at the top level and has moved into a folder:
+            # take the old copy away so the site does not show it twice
+            shutil.rmtree(out / slug_, ignore_errors=True)
+            report["pages removed from their old address because they have moved"].append(
+                f"{slug_}/ -> {f_}/{slug_}/")
 
     def nav_items(kind):
         items = []
@@ -1627,6 +1636,11 @@ def main():
             if n_italic >= 2 and n_paras >= n_italic + 2:
                 style = "references"
                 report["pages formatted as reference lists (add 'style: none' to turn this off)"].append(pg["file"])
+        # links to other websites, including addresses written out in full, open in a new tab
+        body_html = re.sub(r'<a href="(https?://[^"]*)"((?![^>]*target=)[^>]*)>(.*?)</a>',
+                           r'<a href="\1"\2 target="_blank" rel="noopener">\3'
+                           r'<span class="sr-only"> (opens in a new tab)</span></a>',
+                           body_html, flags=re.S)
         # a paragraph that starts "1st:", "2nd:" ... is a release line: keep it on one line
         body_html = re.sub(r'<p>(\s*(?:<a href="#release-[^"]*">[^<]*</a>|\d+(?:st|nd|rd|th))\s*:)',
                            r'<p class="release-line">\1', body_html)
@@ -1656,10 +1670,16 @@ def main():
         body_html = re.sub(r'(src|href)="assets/', lambda m: f'{m.group(1)}="{prefix}assets/', body_html)
         title = pg["meta"].get("title") or sl
         if re.search(r"image-?based key", title, re.I) and sl != "index":
-            m_h = re.search(r"<h2[^>]*>(.*?)</h2>", body_html, re.S)
+            # the first heading, unless it is a standing section name like "Taxonomy"
+            m_h = next((m for m in re.finditer(r"<h2[^>]*>(.*?)</h2>", body_html, re.S)
+                        if re.sub(r"<[^>]+>", "", m.group(1)).strip().lower()
+                        not in ("taxonomy", "references", "image sources", "links", "notes")), None)
             if m_h:
                 title = re.sub(r"<[^>]+>", "", m_h.group(1)).strip()
                 body_html = body_html[:m_h.start()] + body_html[m_h.end():]
+            else:
+                title = sl.replace("-", " ").capitalize()
+                report["pages still needing a proper title (add a 'title:' line)"].append(pg["file"])
                 report["pages whose title came from their own first heading (the old <title> was the "
                        "generic site name)"].append(f"{pg['file']} -> {title}")
         heading = pg["meta"].get("heading") or title
@@ -2080,6 +2100,16 @@ def main():
             for n in nodes:
                 r = n["r"]
                 name = str(r.get("name_new") or r["name"])
+                if not str(r.get("name_new") or "").strip():
+                    # apply the taxonomy sheet's preferred spellings here too, so one
+                    # correction fixes the species pages, the key AND this outline
+                    m_rk = re.match(r"^(\w+)\s+(.+)$", name)
+                    if m_rk:
+                        better = tax_pref.get((m_rk.group(1), m_rk.group(2).strip()))
+                        if better:
+                            name = f"{m_rk.group(1)} {better}"
+                    elif tax_pref.get((str(r["rank"]), name)):
+                        name = tax_pref[(str(r["rank"]), name)]
                 label = f"<em>{html.escape(name)}</em>" if r["rank"] == "Species" else html.escape(name)
                 u, why = group_url(r, page_dir)
                 inner = f'<a href="{html.escape(u, quote=True)}">{label}</a>' if u else label
@@ -2197,12 +2227,17 @@ def main():
             seen_lower[low] = old_path
             dest = out / old_path
             if dest.exists():
-                report["old addresses skipped: a real page already uses that address"].append(old_path)
-                continue
+                try:
+                    is_ours = "cfbkey-forwarding" in dest.read_text(encoding="utf-8", errors="ignore")[:400]
+                except OSError:
+                    is_ours = False
+                if not is_ours:
+                    report["old addresses skipped: a real page already uses that address"].append(old_path)
+                    continue
             target = posixpath.relpath(moved[old_path], posixpath.dirname(old_path) or ".")
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_text(
-                "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
+                "<!DOCTYPE html>\n<!-- cfbkey-forwarding -->\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
                 f"<title>This page has moved | {html.escape(SITE['title'])}</title>\n"
                 f"<link rel=\"canonical\" href=\"{html.escape(target, quote=True)}\">\n"
                 f"<meta http-equiv=\"refresh\" content=\"0; url={html.escape(target, quote=True)}\">\n"

@@ -7,6 +7,13 @@ align: center
 
 {{banner}}
 
+### Tools for food web analysis
+
+Count the plankton in your own lake and build a connectance food web from it:
+biomass estimates, feeding groups, and the predator-prey links between every taxon.
+
+[Open the food web tools](https://jvthaney.github.io/cyanocounter/foodweb.html)
+
 ## Contributors
 
 Maria A. Aliberti, Elisha Allan, Stephanie Allard, Darren J. Bauer, Wendy Beagen, Shane R. Bradt, Brady Carlson, Sonya C. Carlson, Uyen Mai Doan, Jon Dufresne, W. Travis Godkin, Sara Greene, James F. Haney, Amy Kaplan, Erin Maroni, Shawn Melillo, Amanda L. Murby, Juliette L. Smith (Nowak), Brian Ortman, Judith E. Quist, Shayle Reed, Tiffany Rowin, Monika Schmuck, Richard S. Stemberger, Breanna Travers

@@ -1,0 +1,11 @@
+# One line per name difference between Rimet & Druart and the PhycoKey.
+# rimet_name,phycokey_name,note
+# Every line needs checking by someone who knows the algae: these are starting
+# points only. Add your own as you find them.
+Aulacoseira,Melosira,"Aulacoseira was separated from Melosira; the PhycoKey uses the older name. CHECK"
+Dolichospermum,Anabaena,"planktic Anabaena moved to Dolichospermum in 2009. CHECK"
+Woronichinia,Gomphosphaeria,"segregated from Gomphosphaeria. CHECK"
+Snowella,Gomphosphaeria,"segregated from Gomphosphaeria. CHECK"
+Cyanobium,Synechococcus,"small picocyanobacteria, often lumped with Synechococcus. CHECK"
+Planktothrix,Oscillatoria,"segregated from Oscillatoria. CHECK"
+Limnothrix,Oscillatoria,"segregated from Oscillatoria. CHECK"

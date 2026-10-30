@@ -1,0 +1,15 @@
+# Rule parameters for the food web. Change a value and rebuild.,,
+# Every number here is a judgement that someone should be able to argue with,,
+# which is why they are in a file rather than buried in the code.,,
+parameter,value,note
+burns_slope,22,Burns 1968: largest particle um = slope x body length mm + intercept
+burns_intercept,4.87,Burns 1968
+mesh_fine_um,0.5,"fine mesh (Diaphanosoma, Ceriodaphnia, Chydorus, D. cucullata, D. magna). INTERPOLATED from Brendelberger's 0.2-4.7 um range, not a published class value"
+mesh_medium_um,1,"medium mesh (most Daphnia, Bosmina). INTERPOLATED, see above"
+mesh_coarse_um,3,"coarse mesh (Holopedium, Sida). INTERPOLATED, see above"
+mesh_default_um,1,"used where the mesh class is unknown, and for rotifers and copepods, which do not sieve like cladocerans: a placeholder"
+interference_length_um,100,"colonies at or above this size foul the filter rather than being eaten. OUR PLACEHOLDER: the effect is well established for filamentous cyanobacteria but we have not verified a published threshold. Filaments are excluded at any size, because the source standardises them to 100 um"
+raptorial_particle_multiplier,2,raptorial feeders handle particles this many times larger than the Burns limit
+prey_ratio_min,0.05,"smallest prey a predator takes, as a fraction of its own body length"
+prey_ratio_max,0.5,"largest prey a predator takes, as a fraction of its own body length"
+rotifer_max_particle_um,20,"upper limit for microphagous rotifers, which do not follow Burns"

@@ -1,4 +1,4 @@
-Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s), 26 content page(s) and 0 forwarding page(s); 992 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
+Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s), 26 content page(s) and 0 forwarding page(s); 982 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
 Supplementary pages in the workbook: 43
 
 site wording read from the workbook's 'settings' sheet: 1
@@ -51,12 +51,19 @@ missing image file: 5
     key: html/choices/cladocera/FChydoridae/65/Fchy_frame60choice1b.jpg
     bosminalongirostris-figure1: #
     copepoddissection: #
+pages still needing a proper title (add a 'title:' line): 8
+    alona.md
+    alonella-disparalona.md
+    ccopepodafemale.md
+    chydoridae-onebasal.md
+    chydoridae.md
+    ... and 3 more
 pages whose title came from their own first heading (the old <title> was the generic site name): 8
-    alona.md -> Taxonomy
-    alonella-disparalona.md -> Taxonomy
-    ccopepodafemale.md -> Taxonomy
-    chydoridae-onebasal.md -> Taxonomy
-    chydoridae.md -> Taxonomy
+    alona.md -> Alona
+    alonella-disparalona.md -> Alonella disparalona
+    ccopepodafemale.md -> Ccopepodafemale
+    chydoridae-onebasal.md -> Chydoridae onebasal
+    chydoridae.md -> Chydoridae
     ... and 3 more
 pages formatted as reference lists (add 'style: none' to turn this off): 1
     references.md
@@ -147,12 +154,27 @@ old addresses that differ only in capitalisation (only one can be kept): 2
     Start.html / start.html
 forwarding pages written at old addresses: 1
     0 page(s)
+taxonomy spellings replaced from the taxonomy sheet: 1
+    1 rule(s) in use
 
-Page checks: 15 problem(s)
-    ccopepodafemale/index.html: 1 image(s) with empty alt
-    ccopepodamolt/index.html: 1 image(s) with empty alt
-    chydoridae/index.html: 2 image(s) with empty alt
+Page checks: 25 problem(s)
     copepoddissection/index.html: 3 image(s) with empty alt
+    html/idpages/alona.html: broken local link/file -> ../../alona/index.html
+    html/idpages/alona.html: broken local link/file -> ../../alona/index.html
+    html/idpages/alonella_disparalona.html: broken local link/file -> ../../alonella-disparalona/index.html
+    html/idpages/alonella_disparalona.html: broken local link/file -> ../../alonella-disparalona/index.html
+    html/idpages/ccopepodafemale.html: broken local link/file -> ../../ccopepodafemale/index.html
+    html/idpages/ccopepodafemale.html: broken local link/file -> ../../ccopepodafemale/index.html
+    html/idpages/ccopepodamolt.html: broken local link/file -> ../../ccopepodamolt/index.html
+    html/idpages/ccopepodamolt.html: broken local link/file -> ../../ccopepodamolt/index.html
+    html/idpages/chydoridae.html: broken local link/file -> ../../chydoridae/index.html
+    html/idpages/chydoridae.html: broken local link/file -> ../../chydoridae/index.html
+    html/idpages/chydoridae_onebasal.html: broken local link/file -> ../../chydoridae-onebasal/index.html
+    html/idpages/chydoridae_onebasal.html: broken local link/file -> ../../chydoridae-onebasal/index.html
+    html/idpages/macrothricidae.html: broken local link/file -> ../../macrothricidae/index.html
+    html/idpages/macrothricidae.html: broken local link/file -> ../../macrothricidae/index.html
+    html/idpages/moinahutchinsoni.html: broken local link/file -> ../../moinahutchinsoni/index.html
+    html/idpages/moinahutchinsoni.html: broken local link/file -> ../../moinahutchinsoni/index.html
     instructions/index.html: 2 image(s) with empty alt
     key/id/ccopepodafemale/index.html: 1 image(s) with empty alt
     key/id/ccopepodamolt/index.html: 1 image(s) with empty alt
@@ -160,7 +182,4 @@ Page checks: 15 problem(s)
     key/id/macrothricidae/index.html: 7 image(s) with empty alt
     key/id/naupliuscalanoid/index.html: 4 image(s) with empty alt
     key/id/naupliuscyclopoid/index.html: 7 image(s) with empty alt
-    macrothricidae/index.html: 7 image(s) with empty alt
-    naupliuscalanoid/index.html: 4 image(s) with empty alt
-    naupliuscyclopoid/index.html: 7 image(s) with empty alt
     special-features/index.html: 4 image(s) with empty alt

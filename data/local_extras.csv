@@ -1,0 +1,15 @@
+# Taxa that no published trait table covers, but that people count anyway.
+# EVERY LINE NEEDS CHECKING by someone who knows the organisms. Sizes are in mm for
+# zooplankton (body length) and um for phytoplankton (largest dimension).
+#
+# name,group,counting_unit,min,max,feeding_mode,trophic_group,source
+Cyclopoida,zoop,individual,0.40,1.80,raptorial,omnivore,"a stand-in for a count that stopped at "Cyclopoid". Used only where the key's own table has no cyclopoids to aggregate. CHECK"
+Calanoida,zoop,individual,0.50,2.00,suspension,omnivore,"a stand-in for a count that stopped at "Calanoid". CHECK"
+Nauplii,zoop,individual,0.08,0.35,filter,herbivore,"copepod nauplii across stages: a wide span because N1 to N6 differ several-fold. CHECK, and prefer a measured value"
+Copepodite,zoop,individual,0.15,0.80,suspension,omnivore,"copepodite stages, between nauplius and adult. CHECK"
+Protozoa,phyto,cell,20,200,,,"a stand-in for ciliates and flagellates so they appear as food: see the protozoan rows of the trait table for real sizes. CHECK"
+Gloeotrichia,phyto,colony,500,2000,,,"Gloeotrichia echinulata colonies are visible to the eye and far larger than the interference threshold, so they are not grazed. CHECK against local measurements"
+Eucapsis,phyto,colony,20,60,,,"small cubical colonial cyanobacterium. CHECK"
+Micrasterias,phyto,cell,150,300,,,"a large flat desmid. CHECK"
+Sphaerozosma,phyto,filament,100,400,,,"filamentous desmid. CHECK"
+Peridinium,phyto,cell,30,70,,,"spelt Perindium in some counts. CHECK"

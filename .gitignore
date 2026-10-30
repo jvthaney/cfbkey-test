@@ -35,3 +35,8 @@ MOV conversion/
 code_bundle.txt
 *.mov
 *.MOV
+cfb.unh.edu/
+phyco_bundle.txt
+~$*
+.DS_Store
+data/phyto_traits.csv

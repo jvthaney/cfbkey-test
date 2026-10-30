@@ -1714,15 +1714,25 @@ missing image file: 5
     bosminalongirostris-figure1: #
     copepoddissection: #
 
+pages still needing a proper title (add a 'title:' line): 8
+    alona.md
+    alonella-disparalona.md
+    ccopepodafemale.md
+    chydoridae-onebasal.md
+    chydoridae.md
+    macrothricidae.md
+    rotifer-trophy.md
+    rotifer-whole.md
+
 pages whose title came from their own first heading (the old <title> was the generic site name): 8
-    alona.md -> Taxonomy
-    alonella-disparalona.md -> Taxonomy
-    ccopepodafemale.md -> Taxonomy
-    chydoridae-onebasal.md -> Taxonomy
-    chydoridae.md -> Taxonomy
-    macrothricidae.md -> Taxonomy
-    naupliuscalanoid.md -> Calanoid nauplius
-    naupliuscyclopoid.md -> Cyclopoid nauplius
+    alona.md -> Alona
+    alonella-disparalona.md -> Alonella disparalona
+    ccopepodafemale.md -> Ccopepodafemale
+    chydoridae-onebasal.md -> Chydoridae onebasal
+    chydoridae.md -> Chydoridae
+    macrothricidae.md -> Macrothricidae
+    rotifer-trophy.md -> Rotifer trophy
+    rotifer-whole.md -> Rotifer whole
 
 pages formatted as reference lists (add 'style: none' to turn this off): 1
     references.md
@@ -2467,3 +2477,6 @@ old addresses that differ only in capitalisation (only one can be kept): 2
 
 forwarding pages written at old addresses: 1
     0 page(s)
+
+taxonomy spellings replaced from the taxonomy sheet: 1
+    1 rule(s) in use
