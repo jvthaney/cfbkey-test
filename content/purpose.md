@@ -12,3 +12,7 @@ Thus, the construction of this key began as a project of the Zooplankton Ecology
 Although identification of an organism is important, it is often only the first step in evaluating its significance. Where possible we attempt to include ecological notes and references to research on the species. Completion of this section will require much time and will occur in future versions. Seeing the movements and behaviors of a living organism can add much to our understanding of a species. With this in mind, we have added video clips to some of the species pages.
 
 We hope to continually improve the key. Comments and suggestions are welcomed and can be communicated to: [jfhaney@unh.edu](mailto:jfhaney@unh.edu) or Dr. James F. Haney, Department of Biological Sciences, University of New Hampshire, Durham, NH 03824.
+
+## Contributors
+
+{{contributors}}

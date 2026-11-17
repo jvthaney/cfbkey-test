@@ -21,7 +21,11 @@ OPTIONS
                    start with a small header:   ---  title: ...  nav: Label  order: 20
                    footer: yes  label: Text  ---    ('nav' puts it in the top menu,
                    'footer: yes' in the bottom links; use 'label' instead of 'nav' for a
-                   footer-only link; put {{aboutlinks}} in a page to show the footer links as
+                   footer-only link; put {{contributors}} in a page to show the list of
+                   contributors from content/contributors.md, with a note that it is
+                   alphabetized: the same list can then appear on more than one page
+                   without being kept in two places.
+                   Put {{aboutlinks}} in a page to show the footer links as
                    buttons there (the footer row is then left off that page); 'indent: no' switches off the first-line indent that text
                    pages get by default; 'width: wide' widens the text column for pages with long
                    single-line entries; 'style: references' indents each reference under its
@@ -124,7 +128,7 @@ TEMPLATES = {
 {% endif %}
 <link rel="stylesheet" href="{{ root }}css/site.css">
 </head>
-<body>
+<body class="page-{{ current }}">
 <a class="skip-link" href="#main">Skip to main content</a>
 <div class="frame">
 <header class="site-header">
@@ -637,6 +641,8 @@ h2 { font:700 1.02rem/1.3 var(--display); letter-spacing:.06em; text-transform:u
 h3 { font:700 .95rem/1.3 var(--display); letter-spacing:.03em; background:var(--sub);
   padding:.3rem .7rem; margin:1.15rem 0 .45rem; }
 .lede { font-size:1.15rem; }
+.contributors p { max-width:none; }
+.list-note { font-size:.9rem; font-style:italic; color:#4a4a46; margin-top:.5rem; }
 .prose p { max-width:42rem; margin:0 0 .85rem; }
 .indent-paragraphs p { text-indent:2.5em; }
 .prose-wide { max-width:58rem; }
@@ -683,6 +689,14 @@ figcaption { max-width:640px; margin-top:.35rem; }
 .banner-link:focus-visible { outline:3px solid #ffbf47; outline-offset:3px; }
 @media (max-width:34rem) { .banner-strip { grid-template-columns:repeat(2, 1fr); } .banner-overlay { font-size:1.3rem; } }
 .prose h2 { margin-top:1.8rem; }
+/* The front page's section bars are the same black bar as everywhere else, but a
+   little smaller and in ordinary capitals. Other pages keep the louder version. */
+.page-index h2 { font-size:.95rem; letter-spacing:.02em; text-transform:none; }
+/* A section bar written as ### on the front page should still be a black bar, so the
+   three sections match whichever level they were typed at. */
+.page-index .prose h3 { font:700 .95rem/1.3 var(--display); letter-spacing:.02em;
+  text-transform:none; background:var(--bar); color:var(--bar-text);
+  padding:.42rem .7rem; margin:1.9rem 0 .7rem; }
 .prose img { max-width:100%; height:auto; }
 .prose table { border-collapse:collapse; margin:1rem 0; }
 .prose th, .prose td { border:1px solid var(--line); padding:.35rem .6rem; text-align:left; vertical-align:top; }
@@ -1657,6 +1671,20 @@ def main():
                                f'<ul class="link-buttons">{btns}</ul>' if btns else "", body_html)
             if not btns:
                 report["{{aboutlinks}} used but no footer links exist yet"].append(pg["file"])
+        if "{{contributors}}" in body_html:
+            cf = content_dir / "contributors.md"
+            if cf.exists():
+                _m, cbody = parse_front_matter(cf.read_text(encoding="utf-8"))
+                names = md_lib.markdown(cbody, extensions=["extra", "sane_lists", "attr_list"])
+                names = fix_page_links(names, page_dir, "contributors.md")
+                block = (f'<div class="contributors">{names}'
+                         f'<p class="list-note">This list is alphabetized.</p></div>')
+            else:
+                block = ""
+                report["{{contributors}} used but content/contributors.md does not exist"].append(pg["file"])
+            body_html = re.sub(r"<p>\s*\{\{contributors\}\}\s*</p>|\{\{contributors\}\}",
+                               lambda m: block, body_html)
+
         if "{{banner}}" in body_html:
             pics = "".join(f'<img src="{prefix}img/site/group-{k}.jpg" alt="" data-decorative '
                            f'width="200" height="200">' for k, l, t in banner_have)

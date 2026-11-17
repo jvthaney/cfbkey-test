@@ -1,4 +1,4 @@
-Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s), 26 content page(s) and 0 forwarding page(s); 982 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
+Built 240 species page(s) of 240, 217 key step page(s), 6 Groups page(s), 5 anatomy page(s), 25 supplementary page(s), 27 content page(s) and 0 forwarding page(s); 983 HTML pages in /Users/jessicatrout-haney/Documents/Zooplankton Key/docs
 Supplementary pages in the workbook: 43
 
 site wording read from the workbook's 'settings' sheet: 1
